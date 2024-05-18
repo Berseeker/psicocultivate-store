@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Http\Controllers\Dashboard\Calendario;
+namespace App\Http\Controllers\Admin\Calendario;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;

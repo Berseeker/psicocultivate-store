@@ -160,9 +160,9 @@ use App\Http\Controllers\charts\ApexCharts;
 use App\Http\Controllers\maps\Leaflet;
 use App\Http\Controllers\WEB\Calendar\CalendarController;
 use App\Http\Controllers\charts\ChartJs;
-use App\Http\Controllers\Dashboard\Actividades\ActividadController;
-use App\Http\Controllers\Dashboard\Calendario\CalendarioController;
-use App\Http\Controllers\Dashboard\Usuarios\UserController;
+use App\Http\Controllers\Admin\Actividades\ActividadController;
+use App\Http\Controllers\Admin\Calendario\CalendarioController;
+use App\Http\Controllers\Admin\Usuarios\UserController;
 use App\Http\Controllers\WEB\HomeController;
 
 // Main Page Route
