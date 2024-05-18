@@ -134,13 +134,13 @@
                               <img src="{{ asset('/images/resources/feature-2-1.jpg') }}" alt="">
                           </div>
                           <div class="feature-two__title-box">
-                              <h3><a href="services.html">Individual Therapy</a></h3>
+                              <h3><a href="services.html">Psicoterapia Individual</a></h3>
                               <div class="feature-two__icon">
                                   <span class="icon-account"></span>
                               </div>
                           </div>
                           <div class="feature-two__hover-title-box">
-                              <h3><a href="services.html">Individual Therapy</a></h3>
+                              <h3><a href="services.html">Psicoterapia Individual</a></h3>
                               <p class="feature-two__hover-text">Lorem ipsum dolor sited is amet consectetur
                                   notted.</p>
                               <div class="feature-two__hover-icon">
@@ -159,13 +159,13 @@
                               <img src="{{ asset('/images/resources/feature-2-2.jpg') }}" alt="">
                           </div>
                           <div class="feature-two__title-box">
-                              <h3><a href="services.html">Couple Therapy</a></h3>
+                              <h3><a href="services.html">Atención Psicológica</a></h3>
                               <div class="feature-two__icon">
                                   <span class="icon-in-love"></span>
                               </div>
                           </div>
                           <div class="feature-two__hover-title-box">
-                              <h3><a href="services.html">Couple Therapy</a></h3>
+                              <h3><a href="services.html">Atención Psicológica</a></h3>
                               <p class="feature-two__hover-text">Lorem ipsum dolor sited is amet consectetur
                                   notted.</p>
                               <div class="feature-two__hover-icon">
@@ -184,13 +184,13 @@
                               <img src="{{ asset('/images/resources/feature-2-3.jpg') }}" alt="">
                           </div>
                           <div class="feature-two__title-box">
-                              <h3><a href="services.html">Group Therapy</a></h3>
+                              <h3><a href="services.html">Talleres Psicoeducativos</a></h3>
                               <div class="feature-two__icon">
                                   <span class="icon-multiple-user"></span>
                               </div>
                           </div>
                           <div class="feature-two__hover-title-box">
-                              <h3><a href="services.html">Group Therapy</a></h3>
+                              <h3><a href="services.html">Talleres Psicoeducativos</a></h3>
                               <p class="feature-two__hover-text">Lorem ipsum dolor sited is amet consectetur
                                   notted.</p>
                               <div class="feature-two__hover-icon">
