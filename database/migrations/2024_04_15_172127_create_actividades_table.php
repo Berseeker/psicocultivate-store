@@ -14,9 +14,12 @@ return new class extends Migration
         Schema::create('actividades', function (Blueprint $table) {
             $table->id();
             $table->string('nombre');
-            $table->date('termino_x_actividad')->default(now());
+            $table->json('label'); //A que esta destinada la actividad [terapia,amor propio, etc]
+            $table->string('short_desc'); //Pequeña descripcion de la actividad
+            $table->date('termino_x_actividad')->default(now()); //Cuando se cierra la actividad, dependiendo de la fecha
             $table->json('archivos')->nullable()->default(null);
             $table->longText('descripcion')->nullable()->default(null);
+            $table->longText('caratula')->nullable(); //Img representativa de la actividad
             // FK -> ficha_paciente_id
             $table->unsignedBigInteger('ficha_paciente_id');
             $table->foreign('ficha_paciente_id')->references('id')->on('ficha_usuario');

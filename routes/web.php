@@ -157,14 +157,26 @@ use App\Http\Controllers\tables\DatatableBasic;
 use App\Http\Controllers\tables\DatatableAdvanced;
 use App\Http\Controllers\tables\DatatableExtensions;
 use App\Http\Controllers\charts\ApexCharts;
-use App\Http\Controllers\charts\ChartJs;
 use App\Http\Controllers\maps\Leaflet;
 use App\Http\Controllers\WEB\Calendar\CalendarController;
+use App\Http\Controllers\charts\ChartJs;
+use App\Http\Controllers\Dashboard\Actividades\ActividadController;
+use App\Http\Controllers\Dashboard\Calendario\CalendarioController;
+use App\Http\Controllers\Dashboard\Usuarios\UserController;
+use App\Http\Controllers\WEB\HomeController;
 
 // Main Page Route
+Route::get('/', [HomeController::class, 'index'])->name('inicio');
 Route::get('/dashboard', [Analytics::class, 'index'])->name('dashboard');
-Route::get('/app/calendar', [CalendarController::class, 'index'])->name('app.calendar');
-Route::get('/app/user/list', [UserList::class, 'index'])->name('app-user-list');
+Route::get('/app/calendario', [CalendarioController::class, 'index'])->name('app.calendario');
+Route::get('/app/usuarios/listado', [UserController::class, 'index'])->name('app.user.list');
+Route::get('/app/create/actividades', [ActividadController::class, 'index'])->name('actividades.dashboard');
+Route::post('/app/create/actividades', [ActividadController::class, 'store'])->name('store.actividades.dashboard');
+Route::get('/app/actividades', [ActividadController::class, 'showAll'])->name('actividades');
+Route::get('/app/actividad-detalles/{id}', [ActividadController::class, 'details'])->name('actividad.detalles');
+Route::get('/app/asignar/actividad-usuario', [ActividadController::class, 'details'])->name('actividad.usuario');
+//Route::get('/form/layouts-horizontal', [HorizontalForm::class, 'index'])->name('form-layouts-horizontal');
+Route::get('/form/validation', [Validation::class, 'index'])->name('form-validation');
 
 /*Route::get('/dashboard/analytics', [Analytics::class, 'index'])->name('dashboard-analytics');
 Route::get('/dashboard/crm', [Crm::class, 'index'])->name('dashboard-crm');*/
@@ -216,9 +228,6 @@ Route::get('/app/ecommerce/settings/checkout', [EcommerceSettingsCheckout::class
 Route::get('/app/ecommerce/settings/shipping', [EcommerceSettingsShipping::class, 'index'])->name('app-ecommerce-settings-shipping');
 Route::get('/app/ecommerce/settings/locations', [EcommerceSettingsLocations::class, 'index'])->name('app-ecommerce-settings-locations');
 Route::get('/app/ecommerce/settings/notifications', [EcommerceSettingsNotifications::class, 'index'])->name('app-ecommerce-settings-notifications');
-Route::get('/app/academy/dashboard', [AcademyDashboard::class, 'index'])->name('app-academy-dashboard');
-Route::get('/app/academy/course', [AcademyCourse::class, 'index'])->name('app-academy-course');
-Route::get('/app/academy/course-details', [AcademyCourseDetails::class, 'index'])->name('app-academy-course-details');
 Route::get('/app/logistics/dashboard', [LogisticsDashboard::class, 'index'])->name('app-logistics-dashboard');
 Route::get('/app/logistics/fleet', [LogisticsFleet::class, 'index'])->name('app-logistics-fleet');
 Route::get('/app/invoice/list', [InvoiceList::class, 'index'])->name('app-invoice-list');
@@ -341,8 +350,7 @@ Route::get('/form/layouts-sticky', [StickyActions::class, 'index'])->name('form-
 
 // form wizards
 /*Route::get('/form/wizard-numbered', [FormWizardNumbered::class, 'index'])->name('form-wizard-numbered');
-Route::get('/form/wizard-icons', [FormWizardIcons::class, 'index'])->name('form-wizard-icons');
-Route::get('/form/validation', [Validation::class, 'index'])->name('form-validation');*/
+Route::get('/form/wizard-icons', [FormWizardIcons::class, 'index'])->name('form-wizard-icons');*/
 
 // tables
 /*Route::get('/tables/basic', [TablesBasic::class, 'index'])->name('tables-basic');

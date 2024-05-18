@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title> Psicocultivate</title>
+    <title>Psicocultivate</title>
     <!-- favicons Icons -->
     <link rel="apple-touch-icon" sizes="180x180" href="{{ asset('/images/favicons/apple-touch-icon.png') }}" />
     <link rel="icon" type="image/png" sizes="32x32" href="{{ asset('/images/favicons/favicon-32x32.png') }}" />
@@ -59,25 +59,24 @@
 
     <div class="page-wrapper">
 
-        @include('layouts.navbar')
+        @include('layouts.web.navbar')
 
         <!-- Layout Content -->
         @yield('content')
         <!--/ Layout Content -->
 
-        @include('layouts.footer')
+        @include('layouts.web.footer')
 
     </div><!-- /.page-wrapper -->
 
-    @include('layouts.navbar_mobile')
+    @include('layouts.web.navbar_mobile')
 
-    @include('layouts.search')
+    @include('layouts.web.search')
 
     <a href="#" data-target="html" class="scroll-to-target scroll-to-top"><i class="icon-up-arrow"></i></a>
 
     <!-- Include Scripts -->
-    @include('content/web/scripts/scripts')
-
+    @include('layouts.web.scripts')
 </body>
 
 </html>

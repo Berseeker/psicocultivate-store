@@ -11,7 +11,7 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('actividades_realizadas', function (Blueprint $table) {
+        Schema::create('actividades_paciente', function (Blueprint $table) {
             $table->id();
             // FK -> actividad_id
             $table->unsignedBigInteger('actividad_id');
@@ -19,6 +19,9 @@ return new class extends Migration
             $table->date('actividad_enviada')->default(now());
             $table->string('email')->nullable();
             $table->json('archivos')->nullable();
+            $table->string('rate')->default(0); //Vamos a hacer que el paciente diga que tanto le gusto la actividad
+            $table->json('respuestas'); // En caso de que las actividades tengan inputs, aqui se guadaran
+            $table->boolean('actividad_terminada')->default(false);
             $table->timestamps();
         });
     }
@@ -28,6 +31,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('actividades_realizadas');
+        Schema::dropIfExists('actividades_paciente');
     }
 };
