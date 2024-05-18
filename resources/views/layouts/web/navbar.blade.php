@@ -6,7 +6,7 @@
                     <div class="main-menu-three__logo">
                         <a href="index.html">
                           <img id="logo_main_top" src="images/logos/white_psicocultivate.svg" alt="" style="display: none;">
-                          <img id="logo_main_scroll" src="images/logos/psicocultivate.svg" alt="">
+                          <img id="logo_main_scroll" src="images/logos/logo_.svg" alt="">
                         </a>
                     </div>
                     <div class="main-menu-three__main-menu-box">
