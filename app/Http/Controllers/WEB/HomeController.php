@@ -11,4 +11,9 @@ class HomeController extends Controller
     {
         return view('storefront.index');
     }
+
+    public function about()
+    {
+        return view('storefront.about');
+    }
 }

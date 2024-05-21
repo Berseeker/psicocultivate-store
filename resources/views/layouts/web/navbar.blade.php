@@ -110,7 +110,7 @@
                                 </ul>
                             </li>
                             <li class="scrollToLink">
-                                <a href="#about">Sobre mí</a>
+                                <a href="{{ route('about') }}">Sobre mí</a>
                             </li>
                             <li class="scrollToLink">
                                 <a href="#cases">Servicios</a>
