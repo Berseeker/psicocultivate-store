@@ -96,19 +96,19 @@
         <div class="row">
             <div class="col-xs-12 col-xl-6 col-lg-6">
                 <h3 class="team-details__title">Formación Académica</h3>
-                <p>
-                    Licenciada en Psicología - México (2020) <br>
-                    Máster en Terapias Contextuales (2023) <br>
-                    Máster en Psicología Clínica y de la Salud - España (2024) <br>
-                    Maestría en Terapia Cognitiva Conductual - En curso
-                </p>
+                <ul style="list-style: disc;margin-top:5px;">
+                    <li>Licenciada en Psicología - México (2020)</li>
+                    <li>Máster en Terapias Contextuales (2023)</li>
+                    <li>Máster en Psicología Clínica y de la Salud - España (2024)</li>
+                    <li>Maestría en Terapia Cognitiva Conductual - En curso</li>
+                </ul>
             </div>
             <div class="col-xs-12 col-xl-6 col-lg-6">
                 <h3 class="team-details__title">Diplomados:</h3>
-                <p>
-                    Preparación de baterías de pruebas psicológicas, elaboración de dictámen psicológico pericial <br>
-                    Sexología clínica y terapia de parejas
-                </p>
+                <ul style="list-style: disc;margin-top:5px;">
+                    <li>Preparación de baterías de pruebas psicológicas, elaboración de dictámen psicológico pericial</li>
+                    <li>Sexología clínica y terapia de parejas</li>
+                </ul>
             </div>
         </div>
     </div>
