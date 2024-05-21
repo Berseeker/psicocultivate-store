@@ -268,7 +268,7 @@
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
-          ...
+            <img src="{{ asset('images/aboutme/licenciatura_grande.svg') }}" alt="Titulo de Licenciatura en psicologia" style="width: 100%;">
         </div>
       </div>
     </div>
