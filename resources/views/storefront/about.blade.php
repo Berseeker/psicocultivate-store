@@ -138,7 +138,7 @@
             <ul class="certificate-one__list list-unstyled">
                 <li>
                     <div class="certificate-one__img">
-                        <img src="assets/images/team/certificate-1-1.jpg" alt="">
+                        <img src="{{  asset('images/aboutme/licenciatura.svg') }}" data-bs-toggle="modal" data-bs-target="#certificado1" alt="Titulo de licenciatura">
                     </div>
                 </li>
                 <li>
@@ -200,63 +200,78 @@
 
  <!--Experience One End-->
 
-        <!--Contact Three Start-->
-        <section class="contact-three">
-            <div class="contact-three__bg"
-                style="background-image: url(assets/images/backgrounds/contact-three-bg.png);"></div>
-            <div class="container">
-                <div class="section-title text-center">
-                    <span class="section-title__tagline">Contact with me</span>
-                    <h2 class="section-title__title">Feel Free to Get in <span>Touch</span>
-                        <br> with Aleesha</h2>
-                </div>
-                <div class="contact-three__form-box">
-                    <form action="assets/inc/sendemail.php" class="contact-three__form contact-form-validated"
-                        novalidate="novalidate">
-                        <div class="row">
-                            <div class="col-xl-6 col-lg-6">
-                                <div class="contact-three__input-box">
-                                    <input type="text" placeholder="Your Name" name="name">
-                                </div>
-                            </div>
-                            <div class="col-xl-6 col-lg-6">
-                                <div class="contact-three__input-box">
-                                    <input type="email" placeholder="Email Address" name="email">
-                                </div>
-                            </div>
-                            <div class="col-xl-6 col-lg-6">
-                                <div class="contact-three__input-box">
-                                    <input type="text" placeholder="Phone" name="phone">
-                                </div>
-                            </div>
-                            <div class="col-xl-6 col-lg-6">
-                                <div class="contact-three__input-box">
-                                    <div class="contact-three__showing-sort">
-                                        <select class="selectpicker" aria-label="Default select example">
-                                            <option selected>Select Service</option>
-                                            <option value="1">Sort by popular-01</option>
-                                            <option value="2">Sort by popular-02</option>
-                                            <option value="3">Sort by popular-03</option>
-                                        </select>
-                                    </div>
-                                </div>
+<!--Contact Three Start-->
+<section class="contact-three">
+    <div class="contact-three__bg"
+        style="background-image: url(assets/images/backgrounds/contact-three-bg.png);"></div>
+    <div class="container">
+        <div class="section-title text-center">
+            <span class="section-title__tagline">Contact with me</span>
+            <h2 class="section-title__title">Feel Free to Get in <span>Touch</span>
+                <br> with Aleesha</h2>
+        </div>
+        <div class="contact-three__form-box">
+            <form action="assets/inc/sendemail.php" class="contact-three__form contact-form-validated"
+                novalidate="novalidate">
+                <div class="row">
+                    <div class="col-xl-6 col-lg-6">
+                        <div class="contact-three__input-box">
+                            <input type="text" placeholder="Your Name" name="name">
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-6">
+                        <div class="contact-three__input-box">
+                            <input type="email" placeholder="Email Address" name="email">
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-6">
+                        <div class="contact-three__input-box">
+                            <input type="text" placeholder="Phone" name="phone">
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-6">
+                        <div class="contact-three__input-box">
+                            <div class="contact-three__showing-sort">
+                                <select class="selectpicker" aria-label="Default select example">
+                                    <option selected>Select Service</option>
+                                    <option value="1">Sort by popular-01</option>
+                                    <option value="2">Sort by popular-02</option>
+                                    <option value="3">Sort by popular-03</option>
+                                </select>
                             </div>
                         </div>
-                        <div class="row">
-                            <div class="col-xl-12">
-                                <div class="contact-three__input-box text-message-box">
-                                    <textarea name="message" placeholder="Write  a Message"></textarea>
-                                </div>
-                                <div class="contact-three__btn-box">
-                                    <button type="submit" class="thm-btn contact-three__btn">Send a Message</button>
-                                </div>
-                            </div>
-                        </div>
-                    </form>
-                    <div class="result"></div>
+                    </div>
                 </div>
-            </div>
-        </section>
-        <!--Contact Three End-->
+                <div class="row">
+                    <div class="col-xl-12">
+                        <div class="contact-three__input-box text-message-box">
+                            <textarea name="message" placeholder="Write  a Message"></textarea>
+                        </div>
+                        <div class="contact-three__btn-box">
+                            <button type="submit" class="thm-btn contact-three__btn">Send a Message</button>
+                        </div>
+                    </div>
+                </div>
+            </form>
+            <div class="result"></div>
+        </div>
+    </div>
+</section>
+<!--Contact Three End-->
+
+
+<!-- Modal -->
+<div class="modal fade" id="certificado1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          ...
+        </div>
+      </div>
+    </div>
+  </div>
 
 @endsection
