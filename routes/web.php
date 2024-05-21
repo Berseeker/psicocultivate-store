@@ -167,7 +167,7 @@ use App\Http\Controllers\WEB\HomeController;
 
 // Main Page Route
 Route::get('/', [HomeController::class, 'index'])->name('inicio');
-Route::get('/acerca-de-mi', [HomeController::class, 'about'])->name('about');
+Route::get('/sobre-mi', [HomeController::class, 'about'])->name('about');
 Route::get('/dashboard', [Analytics::class, 'index'])->name('dashboard');
 Route::get('/app/calendario', [CalendarioController::class, 'index'])->name('app.calendario');
 Route::get('/app/usuarios/listado', [UserController::class, 'index'])->name('app.user.list');
