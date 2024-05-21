@@ -4,6 +4,19 @@
 
 @section('content')
 
+<style>
+    .custom_right {
+        margin-left: 0px;
+        margin-right:0px;
+    }
+
+    @media (min-width: 900px) {
+        .custom_right {
+            margin-right:150px;
+        }
+    }
+</style>
+
 <!--Page Header Start-->
 <section class="page-header" style="margin-top: 120px;">
     <div class="page-header-bg" style="background-image: url(/images/aboutme/about_banner.svg)">
@@ -147,45 +160,41 @@
 </section>
 <!--Certificate One End-->
 
-<!--Experience One start-->
-<section class="experience-one">
+<!--Team Details Start-->
+<section class="team-details" style="margin-bottom: 50px;">
     <div class="container">
-        <div class="experience-one__inner">
-            <div class="row">
-                <div class="col-xl-6 col-lg-6">
-                    <div class="experience-one__left">
-                        <h3 class="experience-one__title">Personal Experience</h3>
-                        <p class="experience-one__text">If you are going to use a passage of Lorem Ipsum, you
-                            need
-                            to <br> be sure there isn't anything embarrassing hidden.</p>
-                    </div>
+        <div class="row">
+            <div class="col-xl-7 col-lg-7">
+                <div class="team-details__right custom_right">
+                    <h3 class="team-details__title">Conoce más,
+                        <br> sobre mí</h3>
+                    <p class="team-details__text">
+                        En este pequeño espacio para presentarme, será un reto describirme para que puedas conocerme más debido a todo lo que me compone y la importancia de tener límites en mi intimidad, 
+                        pero que esto no se confunda con cuestiones banales de mi vida, el objetivo de este texto es para que puedas conocer a la persona que te brinda uno de los servicios más transformadores como lo es la psicoterapia, 
+                        la persona que estará acompañándote para que alcances tus objetivos, que dentro de sesión y fuera de esta trabajará con ética, confidencialidad, profesionalidad y de forma colaborativa contigo. 
+                        Dentro de sesión me gustaría que lo percibas como un espacio seguro para ti, donde tu tiempo, proceso, historia de vida e inversión, importan e importan mucho para mí, 
+                        así que, dentro de esta, yo no soy la protagonista del cambio, ese papel es tuyo y solo tuyo. Yo seré una acompañante y aliada con recursos, técnicas y herramientas en las que me he formado durante 7 años y seguiré haciendo... 
+                    </p>
+                    <p>
+                        Algunos de los adjetivos que me describen son: determinante, sensible y aventurera. Me gusta conocer nuevos lugares, los pueblos, 
+                        la naturaleza en espacios como el mar o el bosque. Los valores importantes en mi vida son la justicia, el afecto y la autonomía. 
+                        Considero que el afecto es revolucionario, crea espacios seguros y de conexiones bien tratantes que transforman, no solo, a las infancias. 
+                        Que la búsqueda de justicia otorga cambios que dignifican a las personas y la autonomía es indispensable para la autorrealización. 
+                        Disfruto de coleccionar monedas y Funkos de mis series preferidas, asimismo, de armar rompecabezas.
+                    </p>
                 </div>
-                <div class="col-xl-6 col-lg-6">
-                    <div class="experience-one__right">
-                        <ul class="experience-one__progress-list list-unstyled">
-                            <li class="experience-one__progress">
-                                <h4 class="experience-one__progress-title">Counseling</h4>
-                                <div class="bar">
-                                    <div class="bar-inner count-bar" data-percent="77%">
-                                        <div class="count-text">77%</div>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="experience-one__progress">
-                                <h4 class="experience-one__progress-title">Psychology</h4>
-                                <div class="bar">
-                                    <div class="bar-inner count-bar" data-percent="68%">
-                                        <div class="count-text">68%</div>
-                                    </div>
-                                </div>
-                            </li>
-                        </ul>
+            </div>
+            <div class="col-xl-5 col-lg-5">
+                <div class="team-details__left">
+                    <div class="team-details__img">
+                        <img src="{{ asset('images/aboutme/personal_me.svg') }}" alt="Osiris Morales Ruiz">
                     </div>
                 </div>
             </div>
         </div>
     </div>
 </section>
+<!--Team Details End-->
 
  <!--Experience One End-->
 
