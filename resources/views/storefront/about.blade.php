@@ -20,7 +20,6 @@
     </div>
 </section>
 <!--Page Header End-->
-
 <!--Team Details Start-->
 <section class="team-details">
     <div class="container">
@@ -91,7 +90,30 @@
     </div>
 </section>
 <!--Team Details End-->
-
+<!-- Seccion Custom -->
+<section class="team-details">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-xl-6 col-lg-6">
+                <h3 class="team-details__title">Formación Académica</h3>
+                <p>
+                    Licenciada en Psicología - México (2020) <br>
+                    Máster en Terapias Contextuales (2023) <br>
+                    Máster en Psicología Clínica y de la Salud - España (2024) <br>
+                    Maestría en Terapia Cognitiva Conductual - En curso
+                </p>
+            </div>
+            <div class="col-xs-12 col-xl-6 col-lg-6">
+                <h3 class="team-details__title">Diplomados:</h3>
+                <p>
+                    Preparación de baterías de pruebas psicológicas, elaboración de dictámen psicológico pericial <br>
+                    Sexología clínica y terapia de parejas
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Seccion Custom End -->
 <!--Certificate One Start-->
 <section class="certificate-one">
     <div class="container">
