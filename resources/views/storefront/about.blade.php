@@ -6,15 +6,15 @@
 
 <!--Page Header Start-->
 <section class="page-header" style="margin-top: 120px;">
-    <div class="page-header-bg" style="background-image: url(assets/images/backgrounds/page-header-bg.jpg)">
+    <div class="page-header-bg" style="background-image: url(/images/aboutme/about_banner.svg)">
     </div>
     <div class="container">
         <div class="page-header__inner">
-            <h2>Team Details</h2>
+            <h2>Sobre mí</h2>
             <ul class="thm-breadcrumb list-unstyled">
-                <li><a href="index.html">Home</a></li>
+                <li><a href="{{ route('inicio') }}">Inicio</a></li>
                 <li><span>/</span></li>
-                <li>Team Details</li>
+                <li>Detalles sobre mí</li>
             </ul>
         </div>
     </div>
@@ -35,10 +35,10 @@
                             <p>Follow Me</p>
                         </div>
                         <div class="team-details__social">
-                            <a href="#"><i class="fab fa-twitter"></i></a>
-                            <a href="#"><i class="fab fa-facebook"></i></a>
-                            <a href="#"><i class="fab fa-pinterest-p"></i></a>
-                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="https://www.facebook.com/psIcoCultivate" target="_blank"><i class="fab fa-facebook"></i></a>
+                            <a href="https://www.instagram.com/psico_cultivate/" target="_blank"><i class="fab fa-instagram"></i></a>
+                            <a href="https://www.tiktok.com/@psico_cultivate?_t=8mOA17ObW7s&_r=1" target="_blank"><i class="fab fa-tiktok"></i></a>
+                            <a href="https://www.linkedin.com/in/osiris-morales-ruiz-Psicocultivate/" target="_blank"><i class="fab fa-linkedin"></i></a>
                         </div>
                     </div>
                 </div>
