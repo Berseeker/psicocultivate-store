@@ -8,11 +8,13 @@
     .custom_right {
         margin-left: 0px;
         margin-right:0px;
+        margin-bottom: 20px;
     }
 
     @media (min-width: 900px) {
         .custom_right {
             margin-right:150px;
+            margin-bottom: 0px;
         }
     }
 </style>
@@ -161,7 +163,7 @@
 <!--Certificate One End-->
 
 <!--Team Details Start-->
-<section class="team-details" style="margin-bottom: 50px;">
+<section class="team-details" style="margin-bottom: 30px;">
     <div class="container">
         <div class="row">
             <div class="col-xl-7 col-lg-7">
