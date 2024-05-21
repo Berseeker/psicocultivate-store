@@ -45,13 +45,20 @@
             </div>
             <div class="col-xl-7 col-lg-7">
                 <div class="team-details__right">
-                    <h3 class="team-details__title">Hello!
-                        <br> I’m Aleesha Charlotte Your
-                        <br> Personal Psychologist</h3>
-                    <p class="team-details__text">Lorem ipsum dolor sit amet, con adipiscing elit tiam convallis
-                        elit id impedie. Quisq commodo simply free ornare tortor. If you are going to use a
-                        passage.</p>
-                    <div class="team-details__points-box">
+                    <h3 class="team-details__title">Hola,
+                        <br> mi nombre es
+                        <br> Osiris Morales</h3>
+                    <p class="team-details__text">
+                        Soy psicóloga clínica, enfocada en modelos psicoterapéuticos basados en evidencia. 
+                        Cuento con experiencia en organizaciones civiles, privadas y gubernamentales. 
+                        He enfocado mi carrera profesional en la atención psicológica individual, facilitación de talleres y atención en primer nivel en casos de violencia de género.
+                    </p>
+                    <p>
+                        He desarrollado estrategias para facilitar talleres dirigidos a diversos grupos, incluyendo infancias, mujeres y empresas. Estos talleres ofrecen psicoeducación, 
+                        contención emocional con perspectiva de género y el desarrollo de habilidades socioemocionales con el objetivo de potenciar el bienestar emocional. 
+                        Mi experiencia en la planificación y facilitación de talleres psicoeducativos me ha permitido crear propuestas para empresas que buscan mejorar el ambiente laboral a través del fortalecimiento de habilidades socioemocionales.
+                    </p>
+                    <!--div class="team-details__points-box">
                         <h3 class="team-details__points-title">I’m Here to Help Your:</h3>
                         <ul class="team-details__points list-unstyled">
                             <li>
@@ -73,7 +80,7 @@
                                 <h4>Depression</h4>
                             </li>
                         </ul>
-                    </div>
+                    </div-->
                     <div class="team-details__btn-box">
                         <a href="make-appointment.html" class="team-details__btn thm-btn">Make an
                             Appointment</a>
