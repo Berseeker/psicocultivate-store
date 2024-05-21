@@ -182,7 +182,7 @@
                         la naturaleza en espacios como el mar o el bosque. Los valores importantes en mi vida son la justicia, el afecto y la autonomía. 
                         Considero que el afecto es revolucionario, crea espacios seguros y de conexiones bien tratantes que transforman, no solo, a las infancias. 
                         Que la búsqueda de justicia otorga cambios que dignifican a las personas y la autonomía es indispensable para la autorrealización. 
-                        Disfruto de coleccionar monedas y Funkos de mis series preferidas, asimismo, de armar rompecabezas.
+                        Disfruto de coleccionar monedas y Funkos de mis series preferidas, asimismo, de armar rompecabezas y dibujar.
                     </p>
                 </div>
             </div>
