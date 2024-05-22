@@ -28,6 +28,9 @@
 
 
 
+.icon-calendar:before {
+  content: "\e953";
+}
 
 
 .icon-phone-call:before {

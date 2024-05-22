@@ -31,7 +31,7 @@
     <link rel="stylesheet" href="{{ asset('vendors/web/nouislider/nouislider.pips.css') }}" />
     <link rel="stylesheet" href="{{ asset('vendors/web/odometer/odometer.min.css') }}" />
     <link rel="stylesheet" href="{{ asset('vendors/web/swiper/swiper.min.css') }}" />
-    <link rel="stylesheet" href="{{ asset('vendors/web/delogis-icons/style.css') }}">
+    <link rel="stylesheet" href="{{ asset('vendors/web/delogis-icons/style_icons.css') }}">
     <link rel="stylesheet" href="{{ asset('vendors/web/tiny-slider/tiny-slider.min.css') }}" />
     <link rel="stylesheet" href="{{ asset('vendors/web/reey-font/stylesheet.css') }}" />
     <link rel="stylesheet" href="{{ asset('vendors/web/alagambe-font/stylesheet.css') }}" />
