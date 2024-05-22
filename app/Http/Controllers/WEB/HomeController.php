@@ -62,4 +62,9 @@ class HomeController extends Controller
     {
         return view('storefront.team');
     }
+
+    public function appointment()
+    {
+        return view('storefront.appointment');
+    }
 }

@@ -27,6 +27,9 @@
                             <li class="scrollToLink">
                                 <a href="#blog">Blog</a>
                             </li>
+                            <li class="scrollToLink">
+                                <a href="{{ route('appointment') }}">Reserva una cita</a>
+                            </li>
                         </ul>
                     </div>
                 </div>
@@ -43,10 +46,10 @@
                         </div>
                     </div>
                     <div class="main-menu-three__search-cart-box">
-                        <div class="main-menu-three__search-box">
+                        <!--div class="main-menu-three__search-box">
                             <a href="#"
-                                class="main-menu-three__search search-toggler icon-calendar"><small style="margin-left: 5px;font-size:14px;">Haz una cita</small></a>
-                        </div>
+                                class="main-menu-three__search search-toggler icon-magnifying-glass"></a>
+                        </div-->
                         <div class="main-menu-three__cart-box">
                             <a href="cart.html" class="main-menu-three__cart icon-shopping-cart"></a>
                         </div>
