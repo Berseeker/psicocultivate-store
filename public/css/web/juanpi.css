@@ -8888,7 +8888,7 @@ ul {
 .testimonial-three {
   position: relative;
   display: block;
-  background-color: var(--delogis-black);
+  background-color: #4f6635;
   padding: 107px 0 114px;
   z-index: 1;
 }
