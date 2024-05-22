@@ -206,30 +206,47 @@
         style="background-image: url(assets/images/backgrounds/contact-three-bg.png);"></div>
     <div class="container">
         <div class="section-title text-center">
-            <span class="section-title__tagline">Contact with me</span>
-            <h2 class="section-title__title">Feel Free to Get in <span>Touch</span>
-                <br> with Aleesha</h2>
+            <span class="section-title__tagline">Ponte en contacto conmigo</span>
+            <h2 class="section-title__title">Sientete libre de mandarme un <span>mensaje</span></h2>
         </div>
         <div class="contact-three__form-box">
-            <form action="assets/inc/sendemail.php" class="contact-three__form contact-form-validated"
+            <form action="{{ route('about') }}" method="POST" class="contact-three__form contact-form-validated"
                 novalidate="novalidate">
+                @csrf
                 <div class="row">
                     <div class="col-xl-6 col-lg-6">
-                        <div class="contact-three__input-box">
-                            <input type="text" placeholder="Your Name" name="name">
+                        <div class="contact-three__input-box @error('name') is-invalid @enderror">
+                            <input type="text" placeholder="Tu nombre" name="name">
+                            @error('name')
+                                <div class="alert alert-danger">{{ $message }}</div>
+                            @enderror
                         </div>
                     </div>
                     <div class="col-xl-6 col-lg-6">
-                        <div class="contact-three__input-box">
-                            <input type="email" placeholder="Email Address" name="email">
+                        <div class="contact-three__input-box @error('subject') is-invalid @enderror">
+                            <input type="text" placeholder="Asunto" name="subject">
+                            @error('subject')
+                                <div class="alert alert-danger">{{ $message }}</div>
+                            @enderror
                         </div>
                     </div>
                     <div class="col-xl-6 col-lg-6">
-                        <div class="contact-three__input-box">
-                            <input type="text" placeholder="Phone" name="phone">
+                        <div class="contact-three__input-box @error('email') is-invalid @enderror">
+                            <input type="email" placeholder="Correo electronico" name="email">
+                            @error('email')
+                                <div class="alert alert-danger">{{ $message }}</div>
+                            @enderror
                         </div>
                     </div>
                     <div class="col-xl-6 col-lg-6">
+                        <div class="contact-three__input-box @error('phone') is-invalid @enderror">
+                            <input type="text" placeholder="Telefono de contacto" name="phone">
+                            @error('phone')
+                                <div class="alert alert-danger">{{ $message }}</div>
+                            @enderror
+                        </div>
+                    </div>
+                    <!--div class="col-xl-6 col-lg-6">
                         <div class="contact-three__input-box">
                             <div class="contact-three__showing-sort">
                                 <select class="selectpicker" aria-label="Default select example">
@@ -240,15 +257,18 @@
                                 </select>
                             </div>
                         </div>
-                    </div>
+                    </div-->
                 </div>
                 <div class="row">
                     <div class="col-xl-12">
-                        <div class="contact-three__input-box text-message-box">
-                            <textarea name="message" placeholder="Write  a Message"></textarea>
+                        <div class="contact-three__input-box text-message-box @error('message') is-invalid @enderror">
+                            <textarea name="message" placeholder="Escribe un mensaje"></textarea>
+                            @error('message')
+                                <div class="alert alert-danger">{{ $message }}</div>
+                            @enderror
                         </div>
                         <div class="contact-three__btn-box">
-                            <button type="submit" class="thm-btn contact-three__btn">Send a Message</button>
+                            <button type="submit" class="thm-btn contact-three__btn">Enviar</button>
                         </div>
                     </div>
                 </div>

@@ -326,7 +326,7 @@
   }
 
 
-  if ($(".contact-form-validated").length) {
+  /*if ($(".contact-form-validated").length) {
     $(".contact-form-validated").validate({
       // initialize the plugin
       rules: {
@@ -359,7 +359,7 @@
         return false;
       }
     });
-  }
+  }*/
 
   // mailchimp form
   if ($(".mc-form").length) {
