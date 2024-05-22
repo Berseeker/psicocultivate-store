@@ -67,4 +67,14 @@ class HomeController extends Controller
     {
         return view('storefront.appointment');
     }
+
+    public function blogs()
+    {
+        return view('storefront.blogs');
+    }
+
+    public function blog()
+    {
+        return view('storefront.blog');
+    }
 }

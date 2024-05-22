@@ -25,7 +25,7 @@
                                 <a href="{{ route('team') }}">Comunidad</a>
                             </li>
                             <li class="scrollToLink">
-                                <a href="#blog">Blog</a>
+                                <a href="{{ route('blogs') }}">Blogs</a>
                             </li>
                             <li class="scrollToLink">
                                 <a href="{{ route('appointment') }}">Reserva una cita</a>

@@ -173,6 +173,8 @@ Route::get('/servicios', [HomeController::class, 'services'])->name('services');
 Route::get('/servicio/{slug}', [HomeController::class, 'service'])->name('service');
 Route::get('/comunidad', [HomeController::class, 'team'])->name('team');
 Route::get('/reserva-una-cita', [HomeController::class, 'appointment'])->name('appointment');
+Route::get('/blogs', [HomeController::class, 'blogs'])->name('blogs');
+Route::get('/blog/{slug}', [HomeController::class, 'blog'])->name('blog');
 Route::get('/dashboard', [Analytics::class, 'index'])->name('dashboard');
 Route::get('/app/calendario', [CalendarioController::class, 'index'])->name('app.calendario');
 Route::get('/app/usuarios/listado', [UserController::class, 'index'])->name('app.user.list');
