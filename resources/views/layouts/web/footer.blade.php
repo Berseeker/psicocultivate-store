@@ -21,11 +21,11 @@
                     <div class="site-footer__social-title">
                         <p>Follow on:</p>
                     </div>
-                    <div class="site-footer__social">
-                        <a href="#"><i class="fab fa-twitter"></i></a>
-                        <a href="#"><i class="fab fa-facebook"></i></a>
-                        <a href="#"><i class="fab fa-pinterest-p"></i></a>
-                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    <div class="footer_redes_sociales">
+                        <a href="https://www.facebook.com/psIcoCultivate" target="_blank"><i class="fab fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/psico_cultivate/" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.tiktok.com/@psico_cultivate?_t=8mOA17ObW7s&_r=1" target="_blank"><i class="fab fa-tiktok"></i></a>
+                        <a href="https://www.linkedin.com/in/osiris-morales-ruiz-Psicocultivate/" target="_blank"><i class="fab fa-linkedin"></i></a>
                     </div>
                 </div>
             </div>
@@ -49,7 +49,7 @@
                             <h3 class="footer-widget__title">Explore</h3>
                         </div>
                         <ul class="footer-widget__link-list list-unstyled">
-                            <li><a href="about.html">About</a></li>
+                            <li><a href="{{ route('about') }}">Sobre mí</a></li>
                             <li><a href="make-appointment.html">Book Appointment</a></li>
                             <li><a href="blog.html">Latest News</a></li>
                             <li><a href="team.html">Our Therapist</a></li>
@@ -78,8 +78,8 @@
                                     <span class="fas fa-envelope"></span>
                                 </div>
                                 <div class="text">
-                                    <span>Send Email</span>
-                                    <p><a href="mailto:needhelp@company.com">needhelp@company.com</a></p>
+                                    <span>Enviar Email</span>
+                                    <p><a href="mailto:osiris@psicocultivate.com">osiris@psicocultivate.com</a></p>
                                 </div>
                             </li>
                             <li>
@@ -87,8 +87,8 @@
                                     <span class="fas fa-phone-square"></span>
                                 </div>
                                 <div class="text">
-                                    <span>Call Anytime</span>
-                                    <p><a href="tel:+926668880000">+92 (666) 888 0000</a></p>
+                                    <span>Teléfono</span>
+                                    <p><a href="https://api.whatsapp.com/send?phone=529982901735" target="_blank">+52 (998) - 290 1735</a></p>
                                 </div>
                             </li>
                         </ul>
