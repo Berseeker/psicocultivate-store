@@ -52,4 +52,14 @@ class HomeController extends Controller
     {
         return view('storefront.services');
     }
+
+    public function service($slug)
+    {
+        return view('storefront.service');
+    }
+
+    public function team()
+    {
+        return view('storefront.team');
+    }
 }

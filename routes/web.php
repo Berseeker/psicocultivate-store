@@ -170,6 +170,8 @@ Route::get('/', [HomeController::class, 'index'])->name('inicio');
 Route::get('/sobre-mi', [HomeController::class, 'about'])->name('about');
 Route::post('/sobre-mi', [HomeController::class, 'sendMessage'])->name('about');
 Route::get('/servicios', [HomeController::class, 'services'])->name('services');
+Route::get('/servicio/{slug}', [HomeController::class, 'service'])->name('service');
+Route::get('/comunidad', [HomeController::class, 'team'])->name('team');
 Route::get('/dashboard', [Analytics::class, 'index'])->name('dashboard');
 Route::get('/app/calendario', [CalendarioController::class, 'index'])->name('app.calendario');
 Route::get('/app/usuarios/listado', [UserController::class, 'index'])->name('app.user.list');

@@ -38,13 +38,13 @@
                     </div>
                     <div class="services-two__content">
                         <div class="services-two__title-box">
-                            <h3 class="services-two__title"><a href="dating-relationship.html">Dating &
+                            <h3 class="services-two__title"><a href="{{ route('service', ['slug' => 'servicio-1']) }}">Dating &
                                     Relationship</a></h3>
                             <p class="services-two__text">Scelerisque eleifend donec pretium vulputate sapien.
                             </p>
                         </div>
                         <div class="services-two__btn-box">
-                            <a href="dating-relationship.html"><span class="icon-right-arrow"></span>More</a>
+                            <a href="{{ route('service', ['slug' => 'servicio-1']) }}"><span class="icon-right-arrow"></span>More</a>
                         </div>
                     </div>
                 </div>
@@ -63,13 +63,13 @@
                     </div>
                     <div class="services-two__content">
                         <div class="services-two__title-box">
-                            <h3 class="services-two__title"><a href="self-esteem-issues.html">Self Esteem
+                            <h3 class="services-two__title"><a href="{{ route('service', ['slug' => 'servicio-1']) }}">Self Esteem
                                     Issues</a></h3>
                             <p class="services-two__text">Scelerisque eleifend donec pretium vulputate sapien.
                             </p>
                         </div>
                         <div class="services-two__btn-box">
-                            <a href="self-esteem-issues.html"><span class="icon-right-arrow"></span>More</a>
+                            <a href="{{ route('service', ['slug' => 'servicio-1']) }}"><span class="icon-right-arrow"></span>More</a>
                         </div>
                     </div>
                 </div>
@@ -88,13 +88,13 @@
                     </div>
                     <div class="services-two__content">
                         <div class="services-two__title-box">
-                            <h3 class="services-two__title"><a href="family-psycology.html">Family Psycology</a>
+                            <h3 class="services-two__title"><a href="{{ route('service', ['slug' => 'servicio-1']) }}">Family Psycology</a>
                             </h3>
                             <p class="services-two__text">Scelerisque eleifend donec pretium vulputate sapien.
                             </p>
                         </div>
                         <div class="services-two__btn-box">
-                            <a href="family-psycology.html"><span class="icon-right-arrow"></span>More</a>
+                            <a href="{{ route('service', ['slug' => 'servicio-1']) }}"><span class="icon-right-arrow"></span>More</a>
                         </div>
                     </div>
                 </div>
@@ -113,14 +113,14 @@
                     </div>
                     <div class="services-two__content">
                         <div class="services-two__title-box">
-                            <h3 class="services-two__title"><a href="career-counseling.html">Career
+                            <h3 class="services-two__title"><a href="{{ route('service', ['slug' => 'servicio-1']) }}">Career
                                     Counseling</a>
                             </h3>
                             <p class="services-two__text">Scelerisque eleifend donec pretium vulputate sapien.
                             </p>
                         </div>
                         <div class="services-two__btn-box">
-                            <a href="career-counseling.html"><span class="icon-right-arrow"></span>More</a>
+                            <a href="{{ route('service', ['slug' => 'servicio-1']) }}"><span class="icon-right-arrow"></span>More</a>
                         </div>
                     </div>
                 </div>
@@ -139,13 +139,13 @@
                     </div>
                     <div class="services-two__content">
                         <div class="services-two__title-box">
-                            <h3 class="services-two__title"><a href="anxiety-grief.html">Anxiety & Grief</a>
+                            <h3 class="services-two__title"><a href="{{ route('service', ['slug' => 'servicio-1']) }}">Anxiety & Grief</a>
                             </h3>
                             <p class="services-two__text">Scelerisque eleifend donec pretium vulputate sapien.
                             </p>
                         </div>
                         <div class="services-two__btn-box">
-                            <a href="anxiety-grief.html"><span class="icon-right-arrow"></span>More</a>
+                            <a href="{{ route('service', ['slug' => 'servicio-1']) }}"><span class="icon-right-arrow"></span>More</a>
                         </div>
                     </div>
                 </div>
@@ -164,14 +164,14 @@
                     </div>
                     <div class="services-two__content">
                         <div class="services-two__title-box">
-                            <h3 class="services-two__title"><a href="young-adult-intensive.html">Young Adult
+                            <h3 class="services-two__title"><a href="{{ route('service', ['slug' => 'servicio-1']) }}">Young Adult
                                     Intensive</a>
                             </h3>
                             <p class="services-two__text">Scelerisque eleifend donec pretium vulputate sapien.
                             </p>
                         </div>
                         <div class="services-two__btn-box">
-                            <a href="young-adult-intensive.html"><span class="icon-right-arrow"></span>More</a>
+                            <a href="{{ route('service', ['slug' => 'servicio-1']) }}"><span class="icon-right-arrow"></span>More</a>
                         </div>
                     </div>
                 </div>

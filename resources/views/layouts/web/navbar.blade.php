@@ -22,7 +22,7 @@
                                 <a href="{{  route('services') }}">Servicios</a>
                             </li>
                             <li class="scrollToLink">
-                                <a href="#services">Comunidad</a>
+                                <a href="{{ route('team') }}">Comunidad</a>
                             </li>
                             <li class="scrollToLink">
                                 <a href="#blog">Blog</a>
