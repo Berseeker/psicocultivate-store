@@ -37,7 +37,7 @@
                 <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="100ms">
                     <div class="footer-widget__column footer-widget__about">
                         <div class="footer-widget__logo">
-                            <a href="index.html"><img src="{{ asset('/images/resources/footer-logo.png') }}" alt=""></a>
+                            <a href="{{ route('inicio') }}"><img src="{{ asset('images/logos/white_psicocultivate.svg') }}" alt=""></a>
                         </div>
                         <p class="footer-widget__about-text">Best psychology & counseling to help you understand
                             the problems.</p>

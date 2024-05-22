@@ -4,7 +4,7 @@
             <div class="main-menu-three__wrapper-inner">
                 <div class="main-menu-three__left">
                     <div class="main-menu-three__logo">
-                        <a href="index.html">
+                        <a href="{{ route('inicio') }}">
                           <img id="logo_main_top" src="images/logos/white_psicocultivate.svg" alt="" style="display: none;">
                           <img id="logo_main_scroll" src="images/logos/logo_.svg" alt="">
                         </a>
