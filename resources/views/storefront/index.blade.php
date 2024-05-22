@@ -844,7 +844,7 @@
         <!--Testimonial Three Start-->
         <section class="testimonial-three">
             <div class="testimonial-three__bg jarallax" data-jarallax data-speed="0.2" data-imgPosition="50% 0%"
-                style="background-image: url(images/backgrounds/testimonial-three-bg.jpg);"></div>
+                style="background-image: url(images/backgrounds/testimonial.svg);"></div>
             <div class="container">
                 <div class="testimonial-three__carousel owl-carousel owl-theme thm-owl__carousel" data-owl-options='{
                     "loop": true,

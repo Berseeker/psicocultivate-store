@@ -143,17 +143,17 @@
                 </li>
                 <li>
                     <div class="certificate-one__img">
-                        <img src="assets/images/team/certificate-1-2.jpg" alt="">
+                        <img src="{{  asset('images/aboutme/pruebas.svg') }}" data-bs-toggle="modal" data-bs-target="#certificado2" alt="Diplomado de Pruebas">
                     </div>
                 </li>
                 <li>
                     <div class="certificate-one__img">
-                        <img src="assets/images/team/certificate-1-3.jpg" alt="">
+                        <img src="{{  asset('images/aboutme/sexologia.svg') }}" data-bs-toggle="modal" data-bs-target="#certificado3" alt="Diplomado en Sexologia">
                     </div>
                 </li>
                 <li>
                     <div class="certificate-one__img">
-                        <img src="assets/images/team/certificate-1-4.jpg" alt="">
+                        <img src="{{  asset('images/aboutme/contextual.svg') }}" data-bs-toggle="modal" data-bs-target="#certificado4" alt="Diplomado en Contextuales">
                     </div>
                 </li>
             </ul>
@@ -272,6 +272,45 @@
         </div>
       </div>
     </div>
-  </div>
+</div>
+<!-- Modal -->
+<div class="modal fade" id="certificado2" tabindex="-1" aria-labelledby="exampleModalLabel2" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <img src="{{ asset('images/aboutme/pruebas_grande.svg') }}" alt="Diplomado de Baterias" style="width: 100%;">
+        </div>
+      </div>
+    </div>
+</div>
+<!-- Modal -->
+<div class="modal fade" id="certificado3" tabindex="-1" aria-labelledby="exampleModalLabel3" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <img src="{{ asset('images/aboutme/sexologia_grande.svg') }}" alt="Diplomado de Baterias" style="width: 100%;">
+        </div>
+      </div>
+    </div>
+</div>
+<!-- Modal -->
+<div class="modal fade" id="certificado4" tabindex="-1" aria-labelledby="exampleModalLabel4" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <img src="{{ asset('images/aboutme/contextual_grande.svg') }}" alt="Diplomado de Baterias" style="width: 100%;">
+        </div>
+      </div>
+    </div>
+</div>
 
 @endsection
