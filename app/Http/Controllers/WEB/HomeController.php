@@ -47,4 +47,9 @@ class HomeController extends Controller
 
         return back();
     }
+
+    public function services()
+    {
+        return view('storefront.services');
+    }
 }

@@ -19,7 +19,7 @@
                                 <a href="{{ route('about') }}">Sobre mí</a>
                             </li>
                             <li class="scrollToLink">
-                                <a href="#cases">Servicios</a>
+                                <a href="{{  route('services') }}">Servicios</a>
                             </li>
                             <li class="scrollToLink">
                                 <a href="#services">Comunidad</a>
