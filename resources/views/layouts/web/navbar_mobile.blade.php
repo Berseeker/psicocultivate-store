@@ -5,7 +5,7 @@
         <span class="mobile-nav__close mobile-nav__toggler"><i class="fa fa-times"></i></span>
 
         <div class="logo-box">
-            <a href="{{ route('inicio') }}" aria-label="logo image"><img src="{{ asset('/images/resources/logo-2.png') }}" width="135"
+            <a href="{{ route('inicio') }}" aria-label="logo image"><img src="{{ asset('/images/logos/logo_.svg') }}" width="135"
                     alt="Psicocultivate" /></a>
         </div>
         <!-- /.logo-box -->
