@@ -5,8 +5,8 @@
         <span class="mobile-nav__close mobile-nav__toggler"><i class="fa fa-times"></i></span>
 
         <div class="logo-box">
-            <a href="index.html" aria-label="logo image"><img src="{{ asset('/images/resources/logo-2.png') }}" width="135"
-                    alt="" /></a>
+            <a href="{{ route('inicio') }}" aria-label="logo image"><img src="{{ asset('/images/resources/logo-2.png') }}" width="135"
+                    alt="Psicocultivate" /></a>
         </div>
         <!-- /.logo-box -->
         <div class="mobile-nav__container"></div>
@@ -15,19 +15,19 @@
         <ul class="mobile-nav__contact list-unstyled">
             <li>
                 <i class="fa fa-envelope"></i>
-                <a href="mailto:needhelp@packageName__.com">needhelp@delogis.com</a>
+                <a href="mailto:osiris@psicocultivate.com">osiris@psicocultivate.com</a>
             </li>
             <li>
                 <i class="fa fa-phone-alt"></i>
-                <a href="tel:666-888-0000">666 888 0000</a>
+                <a href="https://api.whatsapp.com/send?phone=529982901735" target="_blank">+52 (998) - 290 17350</a>
             </li>
         </ul><!-- /.mobile-nav__contact -->
         <div class="mobile-nav__top">
             <div class="mobile-nav__social">
-                <a href="#" class="fab fa-twitter"></a>
-                <a href="#" class="fab fa-facebook-square"></a>
-                <a href="#" class="fab fa-pinterest-p"></a>
-                <a href="#" class="fab fa-instagram"></a>
+                <a href="https://www.facebook.com/psIcoCultivate" target="_blank" class="fab fa-facebook-square"></a>
+                <a href="https://www.instagram.com/psico_cultivate/" target="_blank" class="fab fa-instagram"></a>
+                <a href="https://www.tiktok.com/@psico_cultivate?_t=8mOA17ObW7s&_r=1" target="_blank" class="fab fa-tiktok"></a>
+                <a href="https://www.linkedin.com/in/osiris-morales-ruiz-Psicocultivate/" target="_blank" class="fab fa-linkedin"></a>
             </div><!-- /.mobile-nav__social -->
         </div><!-- /.mobile-nav__top -->
 
