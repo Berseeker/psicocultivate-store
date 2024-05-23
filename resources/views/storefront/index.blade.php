@@ -1081,20 +1081,4 @@
     </div>
 </section>
 <!--Blog Two End-->
-
-<!--CTA One Start-->
-<section class="cta-one">
-    <div class="cta-one__shape-1 float-bob-x">
-        <img src="{{ asset('/images/shapes/cta-one-shape-1.png') }}" alt="">
-    </div>
-    <div class="container">
-        <div class="cta-one__inner">
-            <p class="cta-one__text">Let’s open your heart story to us, We’ll listen to you</p>
-            <div class="cta-one__btn-box">
-                <a href="make-appointment.html" class="cta-one__btn thm-btn">Make an Appointment</a>
-            </div>
-        </div>
-    </div>
-</section>
-<!--CTA One End-->
 @endsection
