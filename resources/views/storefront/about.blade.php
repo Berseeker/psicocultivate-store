@@ -17,6 +17,9 @@
             margin-bottom: 0px;
         }
     }
+    p {
+        font-size: 16px;
+    }
 </style>
 
 <!--Page Header Start-->
@@ -113,9 +116,9 @@
                 <h3 class="team-details__title">Formación Académica</h3>
                 <ul style="list-style: disc;margin-top:5px;">
                     <li>Licenciada en Psicología - México (2020)</li>
-                    <li>Máster en Terapias Contextuales (2023)</li>
+                    <li>Máster en Terapias Contextuales - España (2023)</li>
                     <li>Máster en Psicología Clínica y de la Salud - España (2024)</li>
-                    <li>Maestría en Terapia Cognitiva Conductual - En curso</li>
+                    <li>Maestría en Terapia Cognitiva Conductual - México (en curso)</li>
                 </ul>
             </div>
             <div class="col-xs-12 col-xl-6 col-lg-6">
@@ -133,7 +136,7 @@
 <section class="certificate-one">
     <div class="container">
         <div class="certificate-one__inner">
-            <h3 class="certificate-one__title">I’m Professional and Completely Certified Psychology Counselor
+            <h3 class="certificate-one__title">Certificaciones
             </h3>
             <ul class="certificate-one__list list-unstyled">
                 <li>

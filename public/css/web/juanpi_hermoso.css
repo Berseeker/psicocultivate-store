@@ -15112,7 +15112,7 @@ ul {
 .contact-three {
   position: relative;
   display: block;
-  background-color: var(--delogis-primary);
+  background-color: #f1e5d5;
   padding: 120px 0 120px;
   overflow: hidden;
   z-index: 1;
