@@ -8948,7 +8948,7 @@ ul {
 }
 
 .testimonial-three__text {
-  font-size: 30px;
+  font-size: 20px;
   font-weight: 300;
   line-height: 44px;
   color: var(--delogis-white);
@@ -8989,7 +8989,7 @@ ul {
   line-height: 58px;
   border-radius: 50%;
   color: var(--delogis-white);
-  background-color: rgb(151, 97, 71);
+  background-color: #d29b24;
   box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.07);
   font-size: 16px;
   margin: 0;
@@ -9003,7 +9003,7 @@ ul {
   line-height: 58px;
   color: var(--delogis-white);
   border-radius: 50%;
-  background-color: rgb(151, 97, 71);
+  background-color: #d29b24;
   box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.07);
   font-size: 16px;
   margin: 0;

@@ -750,12 +750,16 @@
                         </div>
                     </div>
                     <div class="testimonial-three__content">
-                        <p class="testimonial-three__text">This is due to their excellent service, competitive
-                            pricing and customer support. It’s throughly refresing to get such a personal touch
-                            at this stage to magical & Inspirational lessons for people seeking help. enable us
-                            to quote as necessary.</p>
+                        <p class="testimonial-three__text">Cuando llegué a las sesiones pensé: Que joven! .
+                            Más de inmediato entendí que estaba frente a una profesional muy especial. Su personalidad tan cálida, 
+                            comprometida y a la vez poseedora de un método muy bueno, me hizo posible descubrir hechos de mi vida de una forma fácil y clara. 
+                            Mi vida cambió al entender la raíz de muchas actitudes y reacciones. 
+                            Es excelente la forma en la que te plantea un proceso de terapia, con fecha de inicio y de fin. 
+                            Uno puede ir viendo los avances hacia una forma de pensar mas plena y más sana. Hasta el día de hoy, 
+                            muchas veces me descubro, cuando tengo una emoción, aplicando las técnicas que me enseño.
+                            Muchas gracias Osiris, eres una gran psicóloga y ser humano.</p>
                         <div class="testimonial-three__client-name">
-                            <h4>Christine Eve .<span>Customer</span></h4>
+                            <h4>Brenda</h4>
                         </div>
                     </div>
                 </div>
@@ -771,12 +775,11 @@
                         </div>
                     </div>
                     <div class="testimonial-three__content">
-                        <p class="testimonial-three__text">This is due to their excellent service, competitive
-                            pricing and customer support. It’s throughly refresing to get such a personal touch
-                            at this stage to magical & Inspirational lessons for people seeking help. enable us
-                            to quote as necessary.</p>
+                        <p class="testimonial-three__text">Ha sido una gran experiencia, me he sentido todo el tiempo, en un espacio seguro y de confianza, 
+                            que me ha permitido expresarme, reflexionar, aprender y entender muchas cosas y procesos. 
+                            Cada que puedo, recomiendo el acompañamiento de Osiris.</p>
                         <div class="testimonial-three__client-name">
-                            <h4>Alisha Martin .<span>Customer</span></h4>
+                            <h4>Anónimo</h4>
                         </div>
                     </div>
                 </div>
@@ -792,12 +795,12 @@
                         </div>
                     </div>
                     <div class="testimonial-three__content">
-                        <p class="testimonial-three__text">This is due to their excellent service, competitive
-                            pricing and customer support. It’s throughly refresing to get such a personal touch
-                            at this stage to magical & Inspirational lessons for people seeking help. enable us
-                            to quote as necessary.</p>
+                        <p class="testimonial-three__text">Ha sido una experiencia muy enriquecedora, siempre me he sentido validada . 
+                            Puedo expresar mis sentimientos y todo lo que me sucede cada semana con toda la libertad y confianza. 
+                            Nunca me he sentido juzgada , sino todo lo contrario, ha sido como un oasis en el desierto. 
+                            Osiris me ha ayudado a irme encontrando y re-conocerme.</p>
                         <div class="testimonial-three__client-name">
-                            <h4>David kapor .<span>Customer</span></h4>
+                            <h4>Jazz</h4>
                         </div>
                     </div>
                 </div>
