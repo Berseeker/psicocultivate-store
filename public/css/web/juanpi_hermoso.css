@@ -2008,10 +2008,10 @@ ul {
   justify-content: center;
   height: 45px;
   width: 45px;
-  background-color: var(--delogis-white);
+  background-color: #f1e5d5;
   border-radius: 50%;
   font-size: 20px;
-  color: var(--delogis-base);
+  color: #4f6635;
   -webkit-transition: all 500ms ease;
   transition: all 500ms ease;
 }
@@ -2029,7 +2029,7 @@ ul {
   font-size: 13px;
   line-height: 13px;
   margin-bottom: 4px;
-  color: white; /* var(--delogis-gray) */
+  color: #f1e5d5; /* var(--delogis-gray) */
   font-family: "Marcellus", serif;
   font-weight: 400;
   font-style: normal;
@@ -2055,7 +2055,7 @@ ul {
 }
 
 .main-menu-three__call-number a {
-  color: white;
+  color: #f1e5d5;
   -webkit-transition: all 500ms ease;
   transition: all 500ms ease;
 }
@@ -5430,7 +5430,7 @@ ul {
 .site-footer {
   position: relative;
   display: block;
-  background-color: #4f6635;
+  background-color: #122001;
   overflow: hidden;
   z-index: 1;
 }
@@ -5515,7 +5515,7 @@ ul {
   font-size: 15px;
   font-weight: 400;
   font-family: var(--delogis-font);
-  color: #978e8e;
+  color: white;
   margin-left: 23px;
 }
 
@@ -5676,7 +5676,7 @@ ul {
 
 .footer-widget__link-list li a {
   position: relative;
-  color: #978e8e;
+  color: white;
   -webkit-transition: all 500ms ease;
   transition: all 500ms ease;
 }
@@ -5734,7 +5734,7 @@ ul {
 .footer-widget__Contact-list li .text>span {
   font-size: 12px;
   font-weight: 400;
-  color: #978e8e;
+  color: white;
 }
 
 .footer-widget__Contact-list li .text p {
@@ -5761,7 +5761,7 @@ ul {
 }
 
 .footer-widget__newsletter-text {
-  color: #978e8e;
+  color: white;
 }
 
 .footer-widget__email-box {
