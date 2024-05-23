@@ -42,7 +42,7 @@
             <div class="col-xl-5 col-lg-5">
                 <div class="team-details__left">
                     <div class="team-details__img">
-                        <img src="{{ asset('images/aboutme/about_me.svg') }}" alt="Osiris Morales Ruiz">
+                        <img src="{{ asset('images/aboutme/me_natural.svg') }}" alt="Osiris Morales Ruiz">
                     </div>
                     <div class="team-details__social-box">
                         <div class="team-details__social-title">
