@@ -5430,7 +5430,7 @@ ul {
 .site-footer {
   position: relative;
   display: block;
-  background-color: #1a1414;
+  background-color: #4f6635;
   overflow: hidden;
   z-index: 1;
 }
@@ -5451,7 +5451,7 @@ ul {
 .site-footer__top {
   position: relative;
   display: block;
-  background-color: #120e0e;
+  background-color: #253216;
   padding: 25px 0px 25px;
   z-index: 1;
 }
@@ -5489,7 +5489,7 @@ ul {
   position: relative;
   display: inline-block;
   font-size: 64px;
-  color: var(--delogis-base);
+  color: white;
   transition: all 500ms linear;
   transition-delay: 0.1s;
   transform: scale(1);
@@ -5571,7 +5571,7 @@ ul {
   color: var(--delogis-white);
   font-size: 15px;
   border-radius: 50%;
-  background-color: #2e2626;
+  background-color: #4f6635;
   overflow: hidden;
   -webkit-transition: all 500ms ease;
   transition: all 500ms ease;
@@ -5579,7 +5579,7 @@ ul {
 }
 
 .footer_redes_sociales a:hover {
-  color: var(--delogis-base);
+  color: #4f6635;
   background-color: var(--delogis-white);
 }
 
@@ -5718,9 +5718,9 @@ ul {
   justify-content: center;
   width: 40px;
   height: 40px;
-  background-color: #2e2626;
+  background-color: #253216;
   border-radius: 50%;
-  color: var(--delogis-base);
+  color: white;
   font-size: 15px;
   -webkit-transition: all 500ms ease;
   transition: all 500ms ease;
@@ -5728,7 +5728,7 @@ ul {
 
 .footer-widget__Contact-list li .icon:hover span {
   background-color: var(--delogis-white);
-  color: var(--delogis-base);
+  color: #253216;
 }
 
 .footer-widget__Contact-list li .text>span {
@@ -5792,7 +5792,7 @@ ul {
 
 .footer-widget__subscribe-btn {
   border: none;
-  background-color: #5b4034;
+  background-color: #253216;
   width: 100%;
 }
 
@@ -5801,7 +5801,7 @@ ul {
 }
 
 .footer-widget__subscribe-btn::before {
-  background-color: var(--delogis-base);
+  background-color: #253216;
 }
 
 .site-footer__bottom {
