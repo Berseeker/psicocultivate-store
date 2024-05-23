@@ -103,8 +103,7 @@
                             <div class="footer-widget__email-input-box">
                                 <input type="email" placeholder="Email address" name="email">
                             </div>
-                            <button type="submit" class="footer-widget__subscribe-btn thm-btn">Register
-                                Yourself</button>
+                            <button type="submit" class="footer-widget__subscribe-btn thm-btn">Regístrate</button>
                         </form>
                         <div class="mc-form__response"></div>
                     </div>
