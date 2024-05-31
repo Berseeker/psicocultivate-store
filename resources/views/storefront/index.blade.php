@@ -759,7 +759,7 @@
                             muchas veces me descubro, cuando tengo una emoción, aplicando las técnicas que me enseño.
                             Muchas gracias Osiris, eres una gran psicóloga y ser humano.</p>
                         <div class="testimonial-three__client-name">
-                            <h4>Brenda</h4>
+                            <h4>Brenda C.</h4>
                         </div>
                     </div>
                 </div>
@@ -800,7 +800,7 @@
                             Nunca me he sentido juzgada , sino todo lo contrario, ha sido como un oasis en el desierto. 
                             Osiris me ha ayudado a irme encontrando y re-conocerme.</p>
                         <div class="testimonial-three__client-name">
-                            <h4>Jazz</h4>
+                            <h4>Jazz I.</h4>
                         </div>
                     </div>
                 </div>
@@ -818,6 +818,43 @@
                     <div class="testimonial-three__content">
                         <p class="testimonial-three__text">Excelente, me ayudo en mi forma de reaccionar a las situaciones que enfrento día a día, no enojarme como lo hacia, 
                             expresarme con los demás, pensar diferente, cambio algo de mí que ya no existe.</p>
+                        <div class="testimonial-three__client-name">
+                            <h4>Anónimo</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Testimonial one Single End-->
+            <!--Testimonial one Single Start-->
+            <div class="item">
+                <div class="testimonial-three__single">
+                    <div class="testimonial-three__img">
+                        <img src="{{ asset('/images/testimonial/testimonial-3-3.jpg') }}" alt="">
+                        <div class="testimonial-three__quote">
+                            <img src="{{ asset('/images/icon/icon-quote.png') }}" alt="">
+                        </div>
+                    </div>
+                    <div class="testimonial-three__content">
+                        <p class="testimonial-three__text">Al principio fue todo nuevo, es la primera vez que duro más de dos veces seguidas en terapia, y hasta ahora es una bonita experiencia. 
+                            Es bueno ser escuchada y guiada, estar en terapia me ha ayudado, motivado y me hace sentir mejor.</p>
+                        <div class="testimonial-three__client-name">
+                            <h4>Jasmine Z.</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Testimonial one Single End-->
+            <!--Testimonial one Single Start-->
+            <div class="item">
+                <div class="testimonial-three__single">
+                    <div class="testimonial-three__img">
+                        <img src="{{ asset('/images/testimonial/testimonial-3-3.jpg') }}" alt="">
+                        <div class="testimonial-three__quote">
+                            <img src="{{ asset('/images/icon/icon-quote.png') }}" alt="">
+                        </div>
+                    </div>
+                    <div class="testimonial-three__content">
+                        <p class="testimonial-three__text">Excelente, todo muy bien</p>
                         <div class="testimonial-three__client-name">
                             <h4>Anónimo</h4>
                         </div>
