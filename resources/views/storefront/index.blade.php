@@ -806,6 +806,25 @@
                 </div>
             </div>
             <!--Testimonial one Single End-->
+            <!--Testimonial one Single Start-->
+            <div class="item">
+                <div class="testimonial-three__single">
+                    <div class="testimonial-three__img">
+                        <img src="{{ asset('/images/testimonial/testimonial-3-3.jpg') }}" alt="">
+                        <div class="testimonial-three__quote">
+                            <img src="{{ asset('/images/icon/icon-quote.png') }}" alt="">
+                        </div>
+                    </div>
+                    <div class="testimonial-three__content">
+                        <p class="testimonial-three__text">Excelente, me ayudo en mi forma de reaccionar a las situaciones que enfrento día a día, no enojarme como lo hacia, 
+                            expresarme con los demás, pensar diferente, cambio algo de mí que ya no existe.</p>
+                        <div class="testimonial-three__client-name">
+                            <h4>Anónimo</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Testimonial one Single End-->
         </div>
     </div>
 </section>

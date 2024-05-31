@@ -45,15 +45,15 @@
                             </h5>
                         </div>
                     </div>
-                    <div class="main-menu-three__search-cart-box">
-                        <!--div class="main-menu-three__search-box">
+                    <!--div class="main-menu-three__search-cart-box">
+                        <div class="main-menu-three__search-box">
                             <a href="#"
                                 class="main-menu-three__search search-toggler icon-magnifying-glass"></a>
-                        </div-->
+                        </div>
                         <div class="main-menu-three__cart-box">
                             <a href="cart.html" class="main-menu-three__cart icon-shopping-cart"></a>
                         </div>
-                    </div>
+                    </div-->
                 </div>
             </div>
         </div>
