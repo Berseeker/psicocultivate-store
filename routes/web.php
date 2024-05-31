@@ -176,8 +176,9 @@ Route::get('/comunidad-dianely', [HomeController::class, 'dianely'])->name('team
 Route::get('/comunidad-gaman', [HomeController::class, 'gaman'])->name('team.gaman');
 Route::get('/comunidad-gonzalez', [HomeController::class, 'gonzalez'])->name('team.gonzalez');
 Route::get('/reserva-una-cita', [HomeController::class, 'appointment'])->name('appointment');
-Route::get('/blogs', [HomeController::class, 'blogs'])->name('blogs');
-Route::get('/blog/{slug}', [HomeController::class, 'blog'])->name('blog');
+Route::get('/todos-los-blogs', [HomeController::class, 'blogs'])->name('blogs');
+Route::get('/blog/{id}', [HomeController::class, 'blog'])->name('blog');
+Route::get('/blog-download-file/{id}', [HomeController::class, 'blogFile'])->name('blog.file');
 Route::get('/dashboard', [Analytics::class, 'index'])->name('dashboard');
 Route::get('/app/calendario', [CalendarioController::class, 'index'])->name('app.calendario');
 Route::get('/app/usuarios/listado', [UserController::class, 'index'])->name('app.user.list');

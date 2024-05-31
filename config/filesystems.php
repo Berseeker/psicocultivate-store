@@ -36,10 +36,27 @@ return [
             'throw' => false,
         ],
 
+        'blogs' => [
+            'driver' => 'local',
+            'root' => storage_path('app/public/blogs'),
+            'url' => env('APP_URL') . '/storage/blogs',
+            'visibility' => 'public',
+            'permissions' => [
+                'file' => [
+                    'public' => 0664,
+                    'private' => 0600,
+                ],
+                'dir' => [
+                    'public' => 0775,
+                    'private' => 0700,
+                ],
+            ],
+        ],
+
         'public' => [
             'driver' => 'local',
             'root' => storage_path('app/public'),
-            'url' => env('APP_URL').'/storage',
+            'url' => env('APP_URL') . '/storage',
             'visibility' => 'public',
             'throw' => false,
         ],
@@ -71,6 +88,7 @@ return [
 
     'links' => [
         public_path('storage') => storage_path('app/public'),
+        public_path('blogs') => storage_path('app/public/blogs'),
     ],
 
 ];

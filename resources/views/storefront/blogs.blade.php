@@ -10,11 +10,11 @@
     </div>
     <div class="container">
         <div class="page-header__inner">
-            <h2>Blog</h2>
+            <h2>Blogs</h2>
             <ul class="thm-breadcrumb list-unstyled">
                 <li><a href="{{ route('inicio') }}">Inicio</a></li>
                 <li><span>/</span></li>
-                <li>Blog</li>
+                <li>Todos los Blog</li>
             </ul>
         </div>
     </div>
@@ -31,17 +31,17 @@
                     <div class="col-md-6 wow fadeInUp" data-wow-delay="00ms">
                         <div class="blog-four__single">
                             <div class="blog-four__single__image">
-                                <img src="assets/images/blog/blog-4-1.jpg" alt="delogis">
-                                <a href="blog-details.html" class="blog-four__single__image__link"></a>
+                                <img src="{{ asset('images/caratulas/blogs.svg') }}" alt="Blog del Sueño">
+                                <a href="{{ route('blog', ['id' => 1]) }}" class="blog-four__single__image__link"></a>
                             </div>
                             <div class="blog-four__single__content">
                                 <div class="blog-four__single__date"><span>09</span>Jan</div>
                                 <div class="blog-four__single__comment">
-                                    <span class="fas fa-comments"></span><a href="blog-details.html">2 Comments</a>
+                                    <span class="fas fa-comments"></span><a href="{{ route('blog', ['id' => 1]) }}">2 Comments</a>
                                 </div>
-                                <h3 class="blog-four__single__title"><a href="blog-details.html">5 Essential Tips for Managing Over whelming Situations</a></h3>
+                                <h3 class="blog-four__single__title"><a href="{{ route('blog', ['id' => 1]) }}">Recomendaciones para la mejorar la higiene del sueño</a></h3>
                             </div>
-                            <a class="blog-four__single__rm" href="blog-details.html">Read More<span class="delogis-icons-two-right-arrow"></span></a>
+                            <a class="blog-four__single__rm" href="{{ route('blog', ['id' => 1]) }}">Leer más<span class="delogis-icons-two-right-arrow"></span></a>
                         </div>
                     </div>
                     <!--Blog End-->

@@ -3,8 +3,9 @@
 namespace App\Http\Controllers\WEB;
 
 use App\Http\Controllers\Controller;
-use Illuminate\Support\Facades\Mail;
 use App\Mail\ContactMessage;
+use Illuminate\Support\Facades\Storage;
+use Illuminate\Support\Facades\Mail;
 use Illuminate\Http\Request;
 
 class HomeController extends Controller
@@ -73,9 +74,15 @@ class HomeController extends Controller
         return view('storefront.blogs');
     }
 
-    public function blog()
+    public function blog($id)
     {
-        return view('storefront.blog');
+        return view('storefront.blog_details');
+    }
+
+    public function blogFile($id)
+    {
+        //return Storage::url('sleep.pdf');
+        return Storage::download('blogs/sleep.pdf', 'blog_sueño');
     }
 
     public function dianely()
