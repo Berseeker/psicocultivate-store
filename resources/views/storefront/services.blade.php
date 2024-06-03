@@ -31,7 +31,7 @@
                     <div class="services-two__single">
                         <div class="services-two__img-box">
                             <div class="services-two__img">
-                                <img src="{{ asset(Storage::url($service->main_image)) }}" alt="Psicoterapia">
+                                <img src="{{ asset('images/' . $service->main_image) }}" alt="Psicoterapia">
                             </div>
                             <!--div class="services-two__icon">
                                 <span class="icon-heart"></span>
