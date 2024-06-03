@@ -4,6 +4,7 @@ namespace App\Http\Controllers\WEB;
 
 use App\Http\Controllers\Controller;
 use App\Mail\ContactMessage;
+use App\Models\Service;
 use Illuminate\Support\Facades\Storage;
 use Illuminate\Support\Facades\Mail;
 use Illuminate\Http\Request;
@@ -11,10 +12,12 @@ use Illuminate\Http\Request;
 class HomeController extends Controller
 {
     private $email;
+    private $services;
 
     public function __construct()
     {
         $this->email = 'osiris@psicocultivate.com';
+        $this->services = Service::all();
     }
 
     public function index()
@@ -51,7 +54,9 @@ class HomeController extends Controller
 
     public function services()
     {
-        return view('storefront.services');
+        return view('storefront.services', [
+            'services' => $this->services
+        ]);
     }
 
     public function service($slug)
@@ -66,7 +71,9 @@ class HomeController extends Controller
 
     public function appointment()
     {
-        return view('storefront.appointment');
+        return view('storefront.appointment', [
+            'services' => $this->services
+        ]);
     }
 
     public function blogs()

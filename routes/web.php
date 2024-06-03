@@ -170,7 +170,7 @@ Route::get('/', [HomeController::class, 'index'])->name('inicio');
 Route::get('/sobre-mi', [HomeController::class, 'about'])->name('about');
 Route::post('/sobre-mi', [HomeController::class, 'sendMessage'])->name('about');
 Route::get('/servicios', [HomeController::class, 'services'])->name('services');
-Route::get('/servicio/{slug}', [HomeController::class, 'service'])->name('service');
+Route::get('/servicio/{id}', [HomeController::class, 'service'])->name('service.detail');
 Route::get('/comunidad', [HomeController::class, 'team'])->name('team');
 Route::get('/comunidad-dianely', [HomeController::class, 'dianely'])->name('team.dianely');
 Route::get('/comunidad-gaman', [HomeController::class, 'gaman'])->name('team.gaman');

@@ -28,8 +28,8 @@
             <div class="col-xl-6">
                 <div class="make-appointment__left">
                     <div class="section-title text-left">
-                        <span class="section-title__tagline">contact with us</span>
-                        <h2 class="section-title__title">Let’s Book <span>Your</span> <br> Appointment</h2>
+                        <span class="section-title__tagline">contáctame</span>
+                        <h2 class="section-title__title">Reserva <span>una</span> <br> Cita</h2>
                     </div>
                     <div class="make-appointment__form-box">
                         <form action="assets/inc/sendemail.php"
@@ -37,35 +37,35 @@
                             <div class="row">
                                 <div class="col-xl-6 col-lg-6">
                                     <div class="make-appointment__form-input-box">
-                                        <input type="text" placeholder="First Name" name="F-name">
+                                        <input type="text" placeholder="Nombre(s)" name="F-name">
                                     </div>
                                 </div>
                                 <div class="col-xl-6 col-lg-6">
                                     <div class="make-appointment__form-input-box">
-                                        <input type="text" placeholder="Last Name" name="L-name">
+                                        <input type="text" placeholder="Apellidos" name="L-name">
                                     </div>
                                 </div>
                                 <div class="col-xl-6 col-lg-6">
                                     <div class="make-appointment__form-input-box">
-                                        <input type="email" placeholder="Email Address" name="email">
+                                        <input type="email" placeholder="Correo Electrónico" name="email">
                                     </div>
                                 </div>
                                 <div class="col-xl-6 col-lg-6">
                                     <div class="make-appointment__form-input-box">
-                                        <input type="text" placeholder="Phone Number" name="Phone">
+                                        <input type="text" placeholder="Número telefónico" name="Phone">
                                     </div>
                                 </div>
-                                <div class="col-xl-12">
+                                <div class="col-xl-6 col-lg-6">
                                     <div class="make-appointment__form-input-box">
                                         <select class="selectpicker" aria-label="Default select example">
-                                            <option selected>Select a Program</option>
-                                            <option value="1">Select a Program 01</option>
-                                            <option value="2">Select a Program 02</option>
-                                            <option value="3">Select a Program 02</option>
+                                            <option selected>Selecciona un servicio</option>
+                                            @foreach ($services as $service)
+                                                <option value="{{ $service->id }}">{{ $service->nombre }}</option>
+                                            @endforeach
                                         </select>
                                     </div>
                                 </div>
-                                <div class="col-xl-6 col-lg-6">
+                                <!--div class="col-xl-6 col-lg-6">
                                     <div class="make-appointment__form-input-box">
                                         <select class="selectpicker" aria-label="Default select example">
                                             <option selected>Booking for?</option>
@@ -74,10 +74,10 @@
                                             <option value="3">Booking for 03</option>
                                         </select>
                                     </div>
-                                </div>
+                                </div-->
                                 <div class="col-xl-6 col-lg-6">
                                     <div class="make-appointment__form-input-box">
-                                        <input type="text" placeholder="Select Date" name="date"
+                                        <input type="text" placeholder="Fecha sujeta a disponibilidad" name="date"
                                             id="datepicker2">
                                         <div class="contact-one__form-icon">
                                             <i class="fas fa-calendar"></i>
@@ -88,11 +88,10 @@
                             <div class="row">
                                 <div class="col-xl-12">
                                     <div class="make-appointment__form-input-box text-message-box">
-                                        <textarea name="message" placeholder="Write  a Message"></textarea>
+                                        <textarea name="message" placeholder="Comentarios"></textarea>
                                     </div>
                                     <div class="make-appointment__form-btn-box">
-                                        <button type="submit" class="thm-btn make-appointment__form-btn">Book
-                                            Appointment</button>
+                                        <button type="submit" class="thm-btn make-appointment__form-btn">Reservar</button>
                                     </div>
                                 </div>
                             </div>
@@ -110,14 +109,14 @@
                         <div class="col-xl-6 col-lg-6 col-md-6">
                             <div class="make-appointment__single">
                                 <div class="make-appointment__img">
-                                    <img src="assets/images/resources/make-appointment-img-1.jpg" alt="">
+                                    <img src="{{  asset('images/services/item_1.jpg') }}" alt="">
                                 </div>
                             </div>
                         </div>
                         <div class="col-xl-6 col-lg-6 col-md-6">
                             <div class="make-appointment__single make-appointment__single--two">
                                 <div class="make-appointment__img">
-                                    <img src="assets/images/resources/make-appointment-img-2.jpg" alt="">
+                                    <img src="{{  asset('images/services/item_2.jpg') }}" alt="">
                                 </div>
                             </div>
                         </div>

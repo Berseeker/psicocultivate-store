@@ -13,9 +13,13 @@ return new class extends Migration
     {
         Schema::create('servicios', function (Blueprint $table) {
             $table->id();
-            $table->enum('nombre', ['psicoterapia', 'taller']);
-            $table->double('precio');
-            $table->longText('detalles');
+            $table->string('nombre');
+            $table->string('slug');
+            $table->double('precio')->nullable()->default(null);
+            $table->longText('shortDesc');
+            $table->longText('descripcion');
+            $table->longText('main_image');
+            $table->longText('background_image');
             $table->timestamps();
         });
     }
