@@ -6,7 +6,7 @@
 
  <!--Page Header Start-->
  <section class="page-header" style="margin-top: 120px;">
-    <div class="page-header-bg" style="background-image: url(assets/images/backgrounds/page-header-bg.jpg)">
+    <div class="page-header-bg" style="background-image: url(images/blog/background.jpg)">
     </div>
     <div class="container">
         <div class="page-header__inner">
