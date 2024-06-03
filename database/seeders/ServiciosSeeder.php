@@ -32,7 +32,7 @@ class ServiciosSeeder extends Seeder
             'precio' => 600,
             'shortDesc' => 'Hola Mundo',
             'descripcion' => 'Hola Mundo',
-            'main_image' => 'services/servicio_talleres.jpg',
+            'main_image' => 'services/servicio_talleress.jpg',
             'background_image' => 'services/servicio_talleress.jpg'
         ]);
 
