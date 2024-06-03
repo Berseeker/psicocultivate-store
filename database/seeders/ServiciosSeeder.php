@@ -33,7 +33,7 @@ class ServiciosSeeder extends Seeder
             'shortDesc' => 'Hola Mundo',
             'descripcion' => 'Hola Mundo',
             'main_image' => 'services/servicio_talleres.jpg',
-            'background_image' => 'services/servicio_talleres.jpg'
+            'background_image' => 'services/servicio_talleress.jpg'
         ]);
 
         DB::table('servicios')->insert([
