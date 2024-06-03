@@ -10,11 +10,11 @@
     </div>
     <div class="container">
         <div class="page-header__inner">
-            <h2>Make Appointment</h2>
+            <h2>Reservar una cita</h2>
             <ul class="thm-breadcrumb list-unstyled">
-                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html">Inicio</a></li>
                 <li><span>/</span></li>
-                <li>Make Appointment</li>
+                <li>Reservar una cita</li>
             </ul>
         </div>
     </div>
