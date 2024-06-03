@@ -10,11 +10,11 @@
     </div>
     <div class="container">
         <div class="page-header__inner">
-            <h2>Services</h2>
+            <h2>Servicios</h2>
             <ul class="thm-breadcrumb list-unstyled">
-                <li><a href="index.html">Home</a></li>
+                <li><a href="{{ route('inicio') }}">Inicio</a></li>
                 <li><span>/</span></li>
-                <li>Services</li>
+                <li>Servicios</li>
             </ul>
         </div>
     </div>
@@ -30,21 +30,20 @@
                 <div class="services-two__single">
                     <div class="services-two__img-box">
                         <div class="services-two__img">
-                            <img src="assets/images/services/services-2-1.jpg" alt="">
+                            <img src="{{ asset('images/services/servicio_psicoterapia.jpg') }}" alt="Psicoterapia">
                         </div>
-                        <div class="services-two__icon">
+                        <!--div class="services-two__icon">
                             <span class="icon-heart"></span>
-                        </div>
+                        </div-->
                     </div>
                     <div class="services-two__content">
                         <div class="services-two__title-box">
-                            <h3 class="services-two__title"><a href="{{ route('service', ['slug' => 'servicio-1']) }}">Dating &
-                                    Relationship</a></h3>
+                            <h3 class="services-two__title"><a href="{{ route('service', ['slug' => 'servicio-1']) }}">Psicoterapia</a></h3>
                             <p class="services-two__text">Scelerisque eleifend donec pretium vulputate sapien.
                             </p>
                         </div>
                         <div class="services-two__btn-box">
-                            <a href="{{ route('service', ['slug' => 'servicio-1']) }}"><span class="icon-right-arrow"></span>More</a>
+                            <a href="{{ route('service', ['slug' => 'servicio-1']) }}"><span class="icon-right-arrow"></span>Más</a>
                         </div>
                     </div>
                 </div>
@@ -55,21 +54,20 @@
                 <div class="services-two__single">
                     <div class="services-two__img-box">
                         <div class="services-two__img">
-                            <img src="assets/images/services/services-2-2.jpg" alt="">
+                            <img src="{{  asset('images/services/servicio_talleres.jpg') }}" alt="Talleres">
                         </div>
-                        <div class="services-two__icon">
+                        <!--div class="services-two__icon">
                             <span class="icon-self-confidence"></span>
-                        </div>
+                        </div-->
                     </div>
                     <div class="services-two__content">
                         <div class="services-two__title-box">
-                            <h3 class="services-two__title"><a href="{{ route('service', ['slug' => 'servicio-1']) }}">Self Esteem
-                                    Issues</a></h3>
+                            <h3 class="services-two__title"><a href="{{ route('service', ['slug' => 'servicio-1']) }}">Talleres</a></h3>
                             <p class="services-two__text">Scelerisque eleifend donec pretium vulputate sapien.
                             </p>
                         </div>
                         <div class="services-two__btn-box">
-                            <a href="{{ route('service', ['slug' => 'servicio-1']) }}"><span class="icon-right-arrow"></span>More</a>
+                            <a href="{{ route('service', ['slug' => 'servicio-1']) }}"><span class="icon-right-arrow"></span>Más</a>
                         </div>
                     </div>
                 </div>
@@ -80,21 +78,21 @@
                 <div class="services-two__single">
                     <div class="services-two__img-box">
                         <div class="services-two__img">
-                            <img src="assets/images/services/services-2-3.jpg" alt="">
+                            <img src="{{ asset('images/services/servicio_lectura.jpg') }}" alt="">
                         </div>
-                        <div class="services-two__icon">
+                        <!--div class="services-two__icon">
                             <span class="icon-family"></span>
-                        </div>
+                        </div-->
                     </div>
                     <div class="services-two__content">
                         <div class="services-two__title-box">
-                            <h3 class="services-two__title"><a href="{{ route('service', ['slug' => 'servicio-1']) }}">Family Psycology</a>
+                            <h3 class="services-two__title"><a href="{{ route('service', ['slug' => 'servicio-1']) }}">Club de Lectura</a>
                             </h3>
                             <p class="services-two__text">Scelerisque eleifend donec pretium vulputate sapien.
                             </p>
                         </div>
                         <div class="services-two__btn-box">
-                            <a href="{{ route('service', ['slug' => 'servicio-1']) }}"><span class="icon-right-arrow"></span>More</a>
+                            <a href="{{ route('service', ['slug' => 'servicio-1']) }}"><span class="icon-right-arrow"></span>Más</a>
                         </div>
                     </div>
                 </div>
@@ -105,22 +103,21 @@
                 <div class="services-two__single">
                     <div class="services-two__img-box">
                         <div class="services-two__img">
-                            <img src="assets/images/services/services-2-4.jpg" alt="">
+                            <img src="{{ asset('images/services/servicio_informe.jpg') }}" alt="">
                         </div>
-                        <div class="services-two__icon">
+                        <!--div class="services-two__icon">
                             <span class="icon-meeting"></span>
-                        </div>
+                        </div-->
                     </div>
                     <div class="services-two__content">
                         <div class="services-two__title-box">
-                            <h3 class="services-two__title"><a href="{{ route('service', ['slug' => 'servicio-1']) }}">Career
-                                    Counseling</a>
+                            <h3 class="services-two__title"><a href="{{ route('service', ['slug' => 'servicio-1']) }}">Informe Psicológico</a>
                             </h3>
                             <p class="services-two__text">Scelerisque eleifend donec pretium vulputate sapien.
                             </p>
                         </div>
                         <div class="services-two__btn-box">
-                            <a href="{{ route('service', ['slug' => 'servicio-1']) }}"><span class="icon-right-arrow"></span>More</a>
+                            <a href="{{ route('service', ['slug' => 'servicio-1']) }}"><span class="icon-right-arrow"></span>Más</a>
                         </div>
                     </div>
                 </div>
@@ -131,47 +128,21 @@
                 <div class="services-two__single">
                     <div class="services-two__img-box">
                         <div class="services-two__img">
-                            <img src="assets/images/services/services-2-5.jpg" alt="">
+                            <img src="{{ asset('images/services/servicio_atencion.jpg') }}" alt="">
                         </div>
-                        <div class="services-two__icon">
+                        <!--div class="services-two__icon">
                             <span class="icon-anxiety"></span>
-                        </div>
+                        </div-->
                     </div>
                     <div class="services-two__content">
                         <div class="services-two__title-box">
-                            <h3 class="services-two__title"><a href="{{ route('service', ['slug' => 'servicio-1']) }}">Anxiety & Grief</a>
+                            <h3 class="services-two__title"><a href="{{ route('service', ['slug' => 'servicio-1']) }}">Atención Psicológica</a>
                             </h3>
                             <p class="services-two__text">Scelerisque eleifend donec pretium vulputate sapien.
                             </p>
                         </div>
                         <div class="services-two__btn-box">
-                            <a href="{{ route('service', ['slug' => 'servicio-1']) }}"><span class="icon-right-arrow"></span>More</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!--Services Two Single End-->
-            <!--Services Two Single Start-->
-            <div class="col-xl-4 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="600ms">
-                <div class="services-two__single">
-                    <div class="services-two__img-box">
-                        <div class="services-two__img">
-                            <img src="assets/images/services/services-2-6.jpg" alt="">
-                        </div>
-                        <div class="services-two__icon">
-                            <span class="icon-family-3"></span>
-                        </div>
-                    </div>
-                    <div class="services-two__content">
-                        <div class="services-two__title-box">
-                            <h3 class="services-two__title"><a href="{{ route('service', ['slug' => 'servicio-1']) }}">Young Adult
-                                    Intensive</a>
-                            </h3>
-                            <p class="services-two__text">Scelerisque eleifend donec pretium vulputate sapien.
-                            </p>
-                        </div>
-                        <div class="services-two__btn-box">
-                            <a href="{{ route('service', ['slug' => 'servicio-1']) }}"><span class="icon-right-arrow"></span>More</a>
+                            <a href="{{ route('service', ['slug' => 'servicio-1']) }}"><span class="icon-right-arrow"></span>Más</a>
                         </div>
                     </div>
                 </div>

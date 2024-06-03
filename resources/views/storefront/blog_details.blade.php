@@ -27,12 +27,6 @@
         <div class="row">
             <div class="col-xl-4 col-lg-5">
                 <div class="sidebar">
-                    <!--div class="sidebar__single sidebar__search">
-                        <form action="#" class="sidebar__search-form">
-                            <input type="search" placeholder="Keywrord...">
-                            <button type="submit"><i class="icon-magnifying-glass"></i></button>
-                        </form>
-                    </div-->
                     <div class="sidebar__single sidebar__post">
                         <h3 class="sidebar__title">Ultimos Posts</h3>
                         <ul class="sidebar__post-list list-unstyled">
@@ -42,42 +36,17 @@
                                 </div>
                                 <div class="sidebar__post-content">
                                     <h3>
-                                        <span class="sidebar__post-content-meta"><i class="fa fa-comments"></i>2
+                                        <span class="sidebar__post-content-meta"><i class="fa fa-comments"></i>0
                                             Comments</span>
-                                        <a href="blog-details.html">Get Deep Knowledge
-                                            <br> of Bipolar Disorder</a>
-                                    </h3>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="sidebar__post-image">
-                                    <img src="assets/images/blog/lp-1-2.jpg" alt="">
-                                </div>
-                                <div class="sidebar__post-content">
-                                    <h3>
-                                        <span class="sidebar__post-content-meta"><i class="fa fa-comments"></i>2
-                                            Comments</span>
-                                        <a href="blog-details.html">If you are going to improf <br>use a passage
-                                        </a>
-                                    </h3>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="sidebar__post-image">
-                                    <img src="assets/images/blog/lp-1-3.jpg" alt="">
-                                </div>
-                                <div class="sidebar__post-content">
-                                    <h3>
-                                        <span class="sidebar__post-content-meta"><i class="fa fa-comments"></i>2
-                                            Comments</span>
-                                        <a href="blog-details.html">Donec sit amet is<br> lacinia nulla.</a>
+                                        <a href="{{ route('blog', ['id' => 1]) }}">Recomendaciones para
+                                            <br> la mejorar la higiene del sueño</a>
                                     </h3>
                                 </div>
                             </li>
                         </ul>
                     </div>
                     <div class="sidebar__single sidebar__category">
-                        <h3 class="sidebar__title">Categories</h3>
+                        <h3 class="sidebar__title">Categorias</h3>
                         <ul class="sidebar__category-list list-unstyled">
                             <li><a href="blog-details.html">Stress Management</a></li>
                             <li><a href="blog-details.html">Mental Health</a></li>
@@ -92,20 +61,10 @@
                             <a href="{{ Storage::url('sleep.pdf') }}" target="_blank">Blog en PDF</a>
                         </div>
                     </div>
-                    <div class="sidebar__single sidebar__tags">
-                        <h3 class="sidebar__title">Tags</h3>
-                        <div class="sidebar__tags-list">
-                            <a href="#">Depression</a>
-                            <a href="#">Addict</a>
-                            <a href="#">OCD</a>
-                            <a href="#">Psychology</a>
-                            <a href="#">Counseling</a>
-                        </div>
-                    </div>
                     <div class="sidebar__single sidebar__comments">
-                        <h3 class="sidebar__title">Comments</h3>
+                        <h3 class="sidebar__title">Comentarios</h3>
                         <ul class="sidebar__comments-list list-unstyled">
-                            <li>
+                            <!--li>
                                 <div class="sidebar__comments-icon">
                                     <i class="fas fa-comment"></i>
                                 </div>
@@ -138,7 +97,7 @@
                                     <p> <span>John Doe</span> on Template: <br>
                                         Comments</p>
                                 </div>
-                            </li>
+                            </li-->
                         </ul>
                     </div>
                 </div>
@@ -155,11 +114,10 @@
                     <div class="blog-details__content">
                         <ul class="blog-details__meta list-unstyled">
                             <li>
-                                <a href="blog-details.html"><i class="fas fa-user-circle"></i>by Mike
-                                    Hardson</a>
+                                <a href="blog-details.html"><i class="fas fa-user-circle"></i>por Osiris Morales</a>
                             </li>
                             <li>
-                                <a href="blog-details.html"><i class="fas fa-comments"></i>2 Comments</a>
+                                <a href="blog-details.html"><i class="fas fa-comments"></i>0 Comentarios</a>
                             </li>
                         </ul>
                         <h3 class="blog-details__title">Recomendaciones para la mejorar la higiene del sueño</h3>
@@ -201,7 +159,7 @@
                         </p>
                         <div class="blog-details__bottom">
                             <p class="blog-details__tags">
-                                <span>Tags</span>
+                                <span>Categoria</span>
                                 <a href="#">Depression</a>
                                 <a href="#">Addict</a>
                             </p>
@@ -212,7 +170,7 @@
                                 <a href="#"><i class="fab fa-instagram"></i></a>
                             </div>
                         </div>
-                        <div class="blog-details__pagenation">
+                        <!--div class="blog-details__pagenation">
                             <div class="blog-details__pagenation-left">
                                 <div class="blog-details__pagenation-left-img">
                                     <img src="assets/images/blog/blog-details-pagenation-img-1.jpg" alt="">
@@ -236,10 +194,10 @@
                                     <img src="assets/images/blog/blog-details-pagenation-img-2.jpg" alt="">
                                 </div>
                             </div>
-                        </div>
+                        </div-->
                         <div class="comment-one">
-                            <h3 class="comment-one__title">2 Comments</h3>
-                            <div class="comment-one__single">
+                            <h3 class="comment-one__title">0 Comentarios</h3>
+                            <!--div class="comment-one__single">
                                 <div class="comment-one__image">
                                     <img src="assets/images/blog/comment-1-1.jpg" alt="">
                                 </div>
@@ -262,32 +220,32 @@
                                         nulla, sollicitudin at euismod.</p>
                                     <a href="blog-details.html" class="thm-btn comment-one__btn">Reply</a>
                                 </div>
-                            </div>
+                            </div-->
                         </div>
                         <div class="comment-form">
-                            <h3 class="comment-form__title">Leave a Comment</h3>
+                            <h3 class="comment-form__title">Deja un comentario</h3>
                             <form action="assets/inc/sendemail.php"
                                 class="comment-one__form contact-form-validated" novalidate="novalidate">
                                 <div class="row">
                                     <div class="col-xl-6">
                                         <div class="comment-form__input-box">
-                                            <input type="text" placeholder="Your Name" name="name">
+                                            <input type="text" placeholder="Tu nombre" name="name">
                                         </div>
                                     </div>
                                     <div class="col-xl-6">
                                         <div class="comment-form__input-box">
-                                            <input type="email" placeholder="Email Address" name="email">
+                                            <input type="email" placeholder="Correo Electrónico" name="email">
                                         </div>
                                     </div>
                                 </div>
                                 <div class="row">
                                     <div class="col-xl-12">
                                         <div class="comment-form__input-box text-message-box">
-                                            <textarea name="message" placeholder="Write  a Comment"></textarea>
+                                            <textarea name="message" placeholder="Escribe un comentario"></textarea>
                                         </div>
                                         <div class="comment-form__btn-box">
-                                            <button type="submit" class="thm-btn comment-form__btn">Submit
-                                                Comment</button>
+                                            <button type="submit" class="thm-btn comment-form__btn">Subir
+                                                Comentario</button>
                                         </div>
                                     </div>
                                 </div>
