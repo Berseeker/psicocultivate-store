@@ -87,13 +87,13 @@
                                 </div>
                             </div>
                             <div class="row">
-                                <div class="col-xs-12">
-                                    <div class="g-recaptcha" data-sitekey="6LcF4vEpAAAAAAvBIxg2B97JETO7e06xfDxlEbIP" required></div>
-                                </div>
                                 <div class="col-xl-12">
                                     <div class="make-appointment__form-input-box text-message-box">
                                         <textarea name="message" placeholder="Comentarios"></textarea>
                                     </div>
+                                    <div class="g-recaptcha" data-sitekey="6LcF4vEpAAAAAAvBIxg2B97JETO7e06xfDxlEbIP" required></div>
+                                </div>
+                                <div class="col-xs-12" style="margin-top: 10px;">
                                     <div class="make-appointment__form-btn-box">
                                         <button type="submit" class="thm-btn make-appointment__form-btn">Reservar</button>
                                     </div>
