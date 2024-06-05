@@ -113,7 +113,7 @@
                         <div class="col-xl-6 col-lg-6 col-md-6">
                             <div class="make-appointment__single">
                                 <div class="make-appointment__img">
-                                    <img src="{{  asset('images/services/item_1.jpg') }}" alt="Lourdes Osiris Morales Ruiz">
+                                    <img src="{{  asset('images/services/item_3.jpg') }}" alt="Lourdes Osiris Morales Ruiz">
                                 </div>
                             </div>
                         </div>
