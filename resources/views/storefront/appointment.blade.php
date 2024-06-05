@@ -33,7 +33,8 @@
                     </div>
                     <div class="make-appointment__form-box">
                         <form action="assets/inc/sendemail.php"
-                            class="make-appointment__form contact-form-validated" novalidate="novalidate">
+                            class="make-appointment__form contact-form-validated" novalidate="novalidate" method="POST">
+                            @csrf
                             <div class="row">
                                 <div class="col-xl-6 col-lg-6">
                                     <div class="make-appointment__form-input-box">
@@ -127,5 +128,16 @@
     </div>
 </section>
 <!--Make Appointment End-->
+<script src="https://www.google.com/recaptcha/api.js?render=6Lf93vEpAAAAABHK9xVwE4QRVCA0SXpF98b3E9xb"></script>
+<script>
+    function onClick(e) {
+      e.preventDefault();
+      grecaptcha.ready(function() {
+        grecaptcha.execute('6Lf93vEpAAAAABHK9xVwE4QRVCA0SXpF98b3E9xb', {action: 'submit'}).then(function(token) {
+            // Add your logic to submit to your backend server here.
+        });
+      });
+    }
+</script>
 
 @endsection
