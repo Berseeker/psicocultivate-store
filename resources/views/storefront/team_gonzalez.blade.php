@@ -24,7 +24,7 @@
 
 <!--Page Header Start-->
 <section class="page-header" style="margin-top: 120px;">
-    <div class="page-header-bg" style="background-image: url(/images/aboutme/about_banner.svg)">
+    <div class="page-header-bg" style="background-image: url(/images/team/background.jpg)">
     </div>
     <div class="container">
         <div class="page-header__inner">
@@ -45,17 +45,17 @@
             <div class="col-xl-5 col-lg-5">
                 <div class="team-details__left">
                     <div class="team-details__img">
-                        <img src="{{ asset('images/aboutme/me_natural.svg') }}" alt="Osiris Morales Ruiz">
+                        <img src="{{ asset('images/team/gonzalez_page.png') }}" alt="Nimsi Janine González Alemán">
                     </div>
                     <div class="team-details__social-box">
                         <div class="team-details__social-title">
                             <p>Follow Me</p>
                         </div>
                         <div class="team-details__social">
-                            <a href="https://www.facebook.com/psIcoCultivate" target="_blank"><i class="fab fa-facebook"></i></a>
-                            <a href="https://www.instagram.com/psico_cultivate/" target="_blank"><i class="fab fa-instagram"></i></a>
-                            <a href="https://www.tiktok.com/@psico_cultivate?_t=8mOA17ObW7s&_r=1" target="_blank"><i class="fab fa-tiktok"></i></a>
-                            <a href="https://www.linkedin.com/in/osiris-morales-ruiz-Psicocultivate/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                            <a href="https://api.whatsapp.com/send?phone=529993299170" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                            <a href="https://www.instagram.com/una_lectora_derrotada" target="_blank"><i class="fab fa-instagram"></i></a>
+                            <a href="https://unalectoraderrotada.blogspot.com/" target="_blank"><i class="fas fa-blog"></i></a>
+                            <a href="mailto:janine.aleman96@gmail.com"><i class="fas fa-envelope"></i></a>
                         </div>
                     </div>
                 </div>
@@ -64,16 +64,28 @@
                 <div class="team-details__right">
                     <h3 class="team-details__title">Hola,
                         <br> mi nombre es
-                        <br> Dianely Cocom</h3>
+                        <br> Nimsi Janine González Alemán</h3>
                     <p class="team-details__text">
-                        Soy psicóloga clínica, enfocada en modelos psicoterapéuticos basados en evidencia. 
-                        Cuento con experiencia en organizaciones civiles, privadas y gubernamentales. 
-                        He enfocado mi carrera profesional en la atención psicológica individual, facilitación de talleres y atención en primer nivel en casos de violencia de género.
+                        Soy licenciada en Literatura Latinoamericana por la Facultad de Ciencias Antropológicas
+                        perteneciente a la Universidad Autónoma de Yucatán. Actualmente, trabajo como asistente remota
+                        para atención al cliente, pero a tiempo completo soy activista para una asociación civil que asiste a
+                        mujeres y niñas víctimas de violencia además, soy acompañante de mujeres que quieren ejercer sus
+                        derechos sexuales y reproductivos.
+                        Desde el 2016 me inclinado en la investigación literaria de autoras latinoamericanas desde el análisis
+                        textual hasta la impartición de talleres.
+                        He participado en seminarios de investigación, diplomados y conversatorios, así como en ponencias
+                        hablando de y desde la historia y vivencia de la península de Yucatán.
+                        Durante el 2021 y 2022 fui docente en una comunidad del interior del estado de Yucatán para
+                        infancias de diversos grados a nivel educación básica, siendo esta experiencia, un pilar para trabajar
+                        mi narrativa.
                     </p>
                     <p>
-                        He desarrollado estrategias para facilitar talleres dirigidos a diversos grupos, incluyendo infancias, mujeres y empresas. Estos talleres ofrecen psicoeducación, 
-                        contención emocional con perspectiva de género y el desarrollo de habilidades socioemocionales con el objetivo de potenciar el bienestar emocional. 
-                        Mi experiencia en la planificación y facilitación de talleres psicoeducativos me ha permitido crear propuestas para empresas que buscan mejorar el ambiente laboral a través del fortalecimiento de habilidades socioemocionales.
+                        La corrección de tesis de grado sigue siendo una de mis labores destacadas. Aunque, mi actividad
+                        favorita por ahora es generar contenido en redes sociales.
+                        Los talleres y círculos de lectura y escritura le han dado sentido a mi cotidianeidad y mi premisa
+                        gracias a las compañeras que los imparten se ha basado en desarrollar narrativas para escribir y leer
+                        sobre las mujeres. Me he pronunciado como feminista aunque mi pensamiento sigue corrientes de la
+                        otredad y la periferia y posiblemente mi lucha no se pueda contener en un concepto tan particular.
                     </p>
                 </div>
             </div>

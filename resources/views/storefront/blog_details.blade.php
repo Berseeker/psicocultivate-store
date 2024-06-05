@@ -39,7 +39,7 @@
                                         <span class="sidebar__post-content-meta"><i class="fa fa-comments"></i>0
                                             Comments</span>
                                         <a href="{{ route('blog', ['id' => 1]) }}">Recomendaciones para
-                                            <br> la mejorar la higiene del sueño</a>
+                                            <br> mejorar la higiene del sueño</a>
                                     </h3>
                                 </div>
                             </li>
