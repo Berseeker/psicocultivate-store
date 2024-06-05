@@ -3,7 +3,7 @@
 @section('body', 'custom-cursor')
 
 @section('content')
-
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
  <!--Page Header Start-->
  <section class="page-header" style="margin-top: 120px;">
     <div class="page-header-bg" style="background-image: url(images/services/appointment_background.jpg)">
@@ -87,16 +87,15 @@
                                 </div>
                             </div>
                             <div class="row">
+                                <div class="col-xs-12">
+                                    <div class="g-recaptcha" data-sitekey="6LcF4vEpAAAAAAvBIxg2B97JETO7e06xfDxlEbIP" required></div>
+                                </div>
                                 <div class="col-xl-12">
                                     <div class="make-appointment__form-input-box text-message-box">
                                         <textarea name="message" placeholder="Comentarios"></textarea>
                                     </div>
                                     <div class="make-appointment__form-btn-box">
-                                        <!--button type="submit" class="thm-btn make-appointment__form-btn">Reservar</button-->
-                                        <button class="g-recaptcha thm-btn make-appointment__form-btn" 
-                                        data-sitekey="6Lf93vEpAAAAABHK9xVwE4QRVCA0SXpF98b3E9xb" 
-                                        data-callback='onSubmit' 
-                                        data-action='submit'>Reservar</button>
+                                        <button type="submit" class="thm-btn make-appointment__form-btn">Reservar</button>
                                     </div>
                                 </div>
                             </div>
@@ -132,11 +131,5 @@
     </div>
 </section>
 <!--Make Appointment End-->
-<script src="https://www.google.com/recaptcha/api.js"></script>
-<script>
-    function onSubmit(token) {
-      document.getElementById("appointment-form").submit();
-    }
-  </script>
 
 @endsection
