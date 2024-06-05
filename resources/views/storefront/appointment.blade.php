@@ -103,20 +103,20 @@
             <div class="col-xl-6">
                 <div class="make-appointment__right">
                     <div class="make-appointment__shape-1 img-bounce">
-                        <img src="assets/images/shapes/make-appointment-shape-1.png" alt="">
+                        <img src="{{ asset('images/shapes/circle_appt.svg') }}" alt="">
                     </div>
                     <div class="row">
                         <div class="col-xl-6 col-lg-6 col-md-6">
                             <div class="make-appointment__single">
                                 <div class="make-appointment__img">
-                                    <img src="{{  asset('images/services/item_1.jpg') }}" alt="">
+                                    <img src="{{  asset('images/services/item_1.jpg') }}" alt="Lourdes Osiris Morales Ruiz">
                                 </div>
                             </div>
                         </div>
                         <div class="col-xl-6 col-lg-6 col-md-6">
                             <div class="make-appointment__single make-appointment__single--two">
                                 <div class="make-appointment__img">
-                                    <img src="{{  asset('images/services/item_2.jpg') }}" alt="">
+                                    <img src="{{  asset('images/services/item_2.jpg') }}" alt="Lourdes Osiris Morales Ruiz">
                                 </div>
                             </div>
                         </div>
