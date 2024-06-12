@@ -398,319 +398,6 @@
 </section>
 <!--Services Three End-->
 
-<!--Counter Two Start-->
-<section class="counter-two">
-    <div class="counter-two_-shape-1">
-        <img src="{{ asset('/images/shapes/counter-two-shape-1.png') }}" alt="">
-    </div>
-    <div class="container">
-        <ul class="counter-two__point-list list-unstyled">
-            <li class="counter-two__single">
-                <div class="counter-two__icon">
-                    <span class="icon-consulting"></span>
-                </div>
-                <div class="counter-two__count">
-                    <h3 class="odometer" data-count="82">00</h3>
-                    <span class="">k</span>
-                </div>
-                <p class="counter-two__text">Expert Consultant</p>
-            </li>
-            <li class="counter-two__single">
-                <div class="counter-two__icon">
-                    <span class="icon-trophy"></span>
-                </div>
-                <div class="counter-two__count">
-                    <h3 class="odometer" data-count="170">00</h3>
-                </div>
-                <p class="counter-two__text">Honorable Awards</p>
-            </li>
-            <li class="counter-two__single">
-                <div class="counter-two__icon">
-                    <span class="icon-recommend"></span>
-                </div>
-                <div class="counter-two__count">
-                    <h3 class="odometer" data-count="80">00</h3>
-                    <span class="">k</span>
-                </div>
-                <p class="counter-two__text">Satisfied Customers</p>
-            </li>
-            <li class="counter-two__single">
-                <div class="counter-two__icon">
-                    <span class="icon-psychology-3"></span>
-                </div>
-                <div class="counter-two__count">
-                    <h3 class="odometer" data-count="680">00</h3>
-                </div>
-                <p class="counter-two__text">Solve Issues</p>
-            </li>
-        </ul>
-    </div>
-</section>
-<!--Counter Two End-->
-
-<!--Pricing One Start-->
-<section class="pricing-one">
-    <div class="container">
-        <div class="section-title text-center">
-            <span class="section-title__tagline">our pricing plans</span>
-            <h2 class="section-title__title">Select a Plan According <span>to</span>
-                <br> Your Requirements</h2>
-        </div>
-        <div class="pricing-one__main-tab-box tabs-box">
-            <ul class="tab-buttons list-unstyled">
-                <li data-tab="#monthly" class="tab-btn tab-btn-one"><span>Monthly</span></li>
-                <li data-tab="#yearly" class="tab-btn active-btn tab-btn-two"><span>Yearly</span></li>
-            </ul>
-            <div class="tabs-content">
-                <!--tab-->
-                <div class="tab" id="monthly">
-                    <div class="pricing-one__inner">
-                        <div class="row">
-                            <!--Pricing One Single Start-->
-                            <div class="col-xl-4 col-lg-4">
-                                <div class="pricing-one__single">
-                                    <div class="pricing-one__shape-2"></div>
-                                    <div class="pricing-one__icon">
-                                        <img src="{{ asset('/images/icon/pricing-icon-1.png') }}" alt="">
-                                    </div>
-                                    <div class="pricing-one__price-box">
-                                        <h3 class="pricing-one__price">$69</h3>
-                                        <p class="pricing-one__price-sub-title">Individual</p>
-                                    </div>
-                                    <div class="pricing-one__content">
-                                        <ul class="list-unstyled pricing-one__service-list">
-                                            <li>
-                                                <div class="pricing-one__shape-1"></div>
-                                                <p class="pricing-one__text">10 Days Time</p>
-                                            </li>
-                                            <li>
-                                                <div class="pricing-one__shape-1"></div>
-                                                <p class="pricing-one__text">Interview Training</p>
-                                            </li>
-                                            <li>
-                                                <div class="pricing-one__shape-1"></div>
-                                                <p class="pricing-one__text">Guarantee Approval</p>
-                                            </li>
-                                            <li>
-                                                <div class="pricing-one__shape-1"></div>
-                                                <p class="pricing-one__text">Documents Submission</p>
-                                            </li>
-                                        </ul>
-                                        <div class="pricing-one__btn-box">
-                                            <a href="pricing-plans.html"
-                                                class="thm-btn pricing-one__btn">Purchase Now</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!--Pricing One Single End-->
-                            <!--Pricing One Single Start-->
-                            <div class="col-xl-4 col-lg-4">
-                                <div class="pricing-one__single">
-                                    <div class="pricing-one__shape-2"></div>
-                                    <div class="pricing-one__icon">
-                                        <img src="{{ asset('/images/icon/pricing-icon-2.png') }}" alt="">
-                                    </div>
-                                    <div class="pricing-one__price-box">
-                                        <h3 class="pricing-one__price">$79</h3>
-                                        <p class="pricing-one__price-sub-title">couples</p>
-                                    </div>
-                                    <div class="pricing-one__content">
-                                        <ul class="list-unstyled pricing-one__service-list">
-                                            <li>
-                                                <div class="pricing-one__shape-1"></div>
-                                                <p class="pricing-one__text">10 Days Time</p>
-                                            </li>
-                                            <li>
-                                                <div class="pricing-one__shape-1"></div>
-                                                <p class="pricing-one__text">Interview Training</p>
-                                            </li>
-                                            <li>
-                                                <div class="pricing-one__shape-1"></div>
-                                                <p class="pricing-one__text">Guarantee Approval</p>
-                                            </li>
-                                            <li>
-                                                <div class="pricing-one__shape-1"></div>
-                                                <p class="pricing-one__text">Documents Submission</p>
-                                            </li>
-                                        </ul>
-                                        <div class="pricing-one__btn-box">
-                                            <a href="pricing-plans.html"
-                                                class="thm-btn pricing-one__btn">Purchase Now</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!--Pricing One Single End-->
-                            <!--Pricing One Single Start-->
-                            <div class="col-xl-4 col-lg-4">
-                                <div class="pricing-one__single">
-                                    <div class="pricing-one__shape-2"></div>
-                                    <div class="pricing-one__icon">
-                                        <img src="{{ asset('/images/icon/pricing-icon-3.png') }}" alt="">
-                                    </div>
-                                    <div class="pricing-one__price-box">
-                                        <h3 class="pricing-one__price">$89</h3>
-                                        <p class="pricing-one__price-sub-title">groups</p>
-                                    </div>
-                                    <div class="pricing-one__content">
-                                        <ul class="list-unstyled pricing-one__service-list">
-                                            <li>
-                                                <div class="pricing-one__shape-1"></div>
-                                                <p class="pricing-one__text">10 Days Time</p>
-                                            </li>
-                                            <li>
-                                                <div class="pricing-one__shape-1"></div>
-                                                <p class="pricing-one__text">Interview Training</p>
-                                            </li>
-                                            <li>
-                                                <div class="pricing-one__shape-1"></div>
-                                                <p class="pricing-one__text">Guarantee Approval</p>
-                                            </li>
-                                            <li>
-                                                <div class="pricing-one__shape-1"></div>
-                                                <p class="pricing-one__text">Documents Submission</p>
-                                            </li>
-                                        </ul>
-                                        <div class="pricing-one__btn-box">
-                                            <a href="pricing-plans.html"
-                                                class="thm-btn pricing-one__btn">Purchase Now</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!--Pricing One Single End-->
-                        </div>
-                    </div>
-                </div>
-                <!--tab-->
-                <div class="tab active-tab" id="yearly">
-                    <div class="pricing-one__inner">
-                        <div class="row">
-                            <!--Pricing One Single Start-->
-                            <div class="col-xl-4 col-lg-4">
-                                <div class="pricing-one__single">
-                                    <div class="pricing-one__shape-2"></div>
-                                    <div class="pricing-one__icon">
-                                        <img src="{{ asset('/images/icon/pricing-icon-1.png') }}" alt="">
-                                    </div>
-                                    <div class="pricing-one__price-box">
-                                        <h3 class="pricing-one__price">$69</h3>
-                                        <p class="pricing-one__price-sub-title">Individual</p>
-                                    </div>
-                                    <div class="pricing-one__content">
-                                        <ul class="list-unstyled pricing-one__service-list">
-                                            <li>
-                                                <div class="pricing-one__shape-1"></div>
-                                                <p class="pricing-one__text">10 Days Time</p>
-                                            </li>
-                                            <li>
-                                                <div class="pricing-one__shape-1"></div>
-                                                <p class="pricing-one__text">Interview Training</p>
-                                            </li>
-                                            <li>
-                                                <div class="pricing-one__shape-1"></div>
-                                                <p class="pricing-one__text">Guarantee Approval</p>
-                                            </li>
-                                            <li>
-                                                <div class="pricing-one__shape-1"></div>
-                                                <p class="pricing-one__text">Documents Submission</p>
-                                            </li>
-                                        </ul>
-                                        <div class="pricing-one__btn-box">
-                                            <a href="pricing-plans.html"
-                                                class="thm-btn pricing-one__btn">Purchase Now</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!--Pricing One Single End-->
-                            <!--Pricing One Single Start-->
-                            <div class="col-xl-4 col-lg-4">
-                                <div class="pricing-one__single">
-                                    <div class="pricing-one__shape-2"></div>
-                                    <div class="pricing-one__icon">
-                                        <img src="{{ asset('/images/icon/pricing-icon-2.png') }}" alt="">
-                                    </div>
-                                    <div class="pricing-one__price-box">
-                                        <h3 class="pricing-one__price">$79</h3>
-                                        <p class="pricing-one__price-sub-title">couples</p>
-                                    </div>
-                                    <div class="pricing-one__content">
-                                        <ul class="list-unstyled pricing-one__service-list">
-                                            <li>
-                                                <div class="pricing-one__shape-1"></div>
-                                                <p class="pricing-one__text">10 Days Time</p>
-                                            </li>
-                                            <li>
-                                                <div class="pricing-one__shape-1"></div>
-                                                <p class="pricing-one__text">Interview Training</p>
-                                            </li>
-                                            <li>
-                                                <div class="pricing-one__shape-1"></div>
-                                                <p class="pricing-one__text">Guarantee Approval</p>
-                                            </li>
-                                            <li>
-                                                <div class="pricing-one__shape-1"></div>
-                                                <p class="pricing-one__text">Documents Submission</p>
-                                            </li>
-                                        </ul>
-                                        <div class="pricing-one__btn-box">
-                                            <a href="pricing-plans.html"
-                                                class="thm-btn pricing-one__btn">Purchase Now</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!--Pricing One Single End-->
-                            <!--Pricing One Single Start-->
-                            <div class="col-xl-4 col-lg-4">
-                                <div class="pricing-one__single">
-                                    <div class="pricing-one__shape-2"></div>
-                                    <div class="pricing-one__icon">
-                                        <img src="{{ asset('/images/icon/pricing-icon-3.png') }}" alt="">
-                                    </div>
-                                    <div class="pricing-one__price-box">
-                                        <h3 class="pricing-one__price">$89</h3>
-                                        <p class="pricing-one__price-sub-title">groups</p>
-                                    </div>
-                                    <div class="pricing-one__content">
-                                        <ul class="list-unstyled pricing-one__service-list">
-                                            <li>
-                                                <div class="pricing-one__shape-1"></div>
-                                                <p class="pricing-one__text">10 Days Time</p>
-                                            </li>
-                                            <li>
-                                                <div class="pricing-one__shape-1"></div>
-                                                <p class="pricing-one__text">Interview Training</p>
-                                            </li>
-                                            <li>
-                                                <div class="pricing-one__shape-1"></div>
-                                                <p class="pricing-one__text">Guarantee Approval</p>
-                                            </li>
-                                            <li>
-                                                <div class="pricing-one__shape-1"></div>
-                                                <p class="pricing-one__text">Documents Submission</p>
-                                            </li>
-                                        </ul>
-                                        <div class="pricing-one__btn-box">
-                                            <a href="pricing-plans.html"
-                                                class="thm-btn pricing-one__btn">Purchase Now</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!--Pricing One Single End-->
-                        </div>
-                    </div>
-                </div>
-                <!--tab-->
-            </div>
-        </div>
-    </div>
-</section>
-<!--Pricing One End-->
-
 <!--Testimonial Three Start-->
 <section class="testimonial-three">
     <div class="testimonial-three__bg jarallax" data-jarallax data-speed="0.2" data-imgPosition="50% 0%"
@@ -868,7 +555,7 @@
 <!--Testimonial Three End-->
 
 <!--Cases Three Start-->
-<section class="cases-three" id="cases">
+<!--section class="cases-three" id="cases">
     <div class="container">
         <div class="section-title text-center">
             <span class="section-title__tagline">Our recent work</span>
@@ -876,7 +563,6 @@
                 <br> Completed Cases</h2>
         </div>
         <div class="row">
-            <!--Cases Three Single Start-->
             <div class="col-xl-4 col-lg-4">
                 <div class="cases-three__single">
                     <div class="cases-three__img-box">
@@ -906,8 +592,6 @@
                     </div>
                 </div>
             </div>
-            <!--Cases Three Single End-->
-            <!--Cases Three Single Start-->
             <div class="col-xl-4 col-lg-4">
                 <div class="cases-three__single">
                     <div class="cases-three__img-box">
@@ -937,8 +621,6 @@
                     </div>
                 </div>
             </div>
-            <!--Cases Three Single End-->
-            <!--Cases Three Single Start-->
             <div class="col-xl-4 col-lg-4">
                 <div class="cases-three__single">
                     <div class="cases-three__img-box">
@@ -968,85 +650,10 @@
                     </div>
                 </div>
             </div>
-            <!--Cases Three Single End-->
         </div>
     </div>
-</section>
+</section-->
 <!--Cases Three End-->
-
-<!--Why Choose Three Start-->
-<section class="why-choose-three">
-    <div class="container">
-        <div class="row">
-            <div class="col-xl-6">
-                <div class="why-choose-three__left">
-                    <div class="why-choose-three__img">
-                        <img src="images/resources/why-choose-three-img-1.jpg" alt="">
-                        <div class="why-choose-three__experience">
-                            <div class="why-choose-three__experience-icon">
-                                <img src="{{ asset('/images/icon/experience-icon-1.png') }}" alt="">
-                            </div>
-                            <div class="why-choose-three__count">
-                                <h3 class="odometer" data-count="26">00</h3>
-                                <span class="">+</span>
-                            </div>
-                            <p class="why-choose-three__count-text">Years
-                                <br> Experience</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xl-6">
-                <div class="why-choose-three__right">
-                    <div class="why-choose-three__shape-1 img-bounce"
-                        style="background-image: url(images/shapes/why-choose-three-shape-1.png);"></div>
-                    <div class="section-title text-left">
-                        <span class="section-title__tagline">Why Choose</span>
-                        <h2 class="section-title__title">Leading Mental <span>Health</span>
-                            <br> Counseling Center</h2>
-                    </div>
-                    <p class="why-choose-three__text">Lorem ipsum dolorsit amet, adipiscing elit, sed eiusmod
-                        tempor incididunt labore dolore magna aliqua. Quis ipsum suspend isse ultrices gravida.
-                        Risus commodo viverra maecenas accumsan lacusvel facilisis.</p>
-                    <div class="why-choose-three__progress-box">
-                        <div class="why-choose-three__progress-box-img">
-                            <img src="{{ asset('/images/resources/why-choose-three-img-2.jpg') }}" alt="">
-                            <div class="why-choose-three__result-box">
-                                <div class="why-choose-three__result">
-                                    <div class="why-choose-three__result-count">
-                                        <h3 class="odometer" data-count="99">00</h3>
-                                        <span class="">%</span>
-                                    </div>
-                                    <p class="why-choose-three__result-text">Treatment
-                                        <br> Results</p>
-                                </div>
-                            </div>
-                        </div>
-                        <ul class="why-choose-three__progress-list list-unstyled">
-                            <li class="why-choose-three__progress">
-                                <h4 class="why-choose-three__progress-title">Counseling</h4>
-                                <div class="bar">
-                                    <div class="bar-inner count-bar" data-percent="77%">
-                                        <div class="count-text">77%</div>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="why-choose-three__progress">
-                                <h4 class="why-choose-three__progress-title">Psychology</h4>
-                                <div class="bar">
-                                    <div class="bar-inner count-bar" data-percent="68%">
-                                        <div class="count-text">68%</div>
-                                    </div>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-        <!--Why Choose Three End-->
 
 <!--Blog Two Start-->
 <section class="blog-two" id="blog">

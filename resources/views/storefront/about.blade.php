@@ -99,8 +99,7 @@
                         </ul>
                     </div-->
                     <div class="team-details__btn-box">
-                        <a href="make-appointment.html" class="team-details__btn thm-btn">Make an
-                            Appointment</a>
+                        <a href="make-appointment.html" class="team-details__btn thm-btn">Haz una cita</a>
                     </div>
                 </div>
             </div>
@@ -235,7 +234,7 @@
                     </div>
                     <div class="col-xl-6 col-lg-6">
                         <div class="contact-three__input-box @error('email') is-invalid @enderror">
-                            <input type="email" placeholder="Correo electronico" name="email">
+                            <input type="email" placeholder="Correo electrónico" name="email">
                             @error('email')
                                 <div class="alert alert-danger">{{ $message }}</div>
                             @enderror
@@ -243,7 +242,7 @@
                     </div>
                     <div class="col-xl-6 col-lg-6">
                         <div class="contact-three__input-box @error('phone') is-invalid @enderror">
-                            <input type="text" placeholder="Telefono de contacto" name="phone">
+                            <input type="text" placeholder="Teléfono de contácto" name="phone">
                             @error('phone')
                                 <div class="alert alert-danger">{{ $message }}</div>
                             @enderror

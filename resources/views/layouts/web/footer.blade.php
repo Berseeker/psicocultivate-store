@@ -101,7 +101,7 @@
                         <p class="footer-widget__newsletter-text">Suscribete a nuestro boletín para obtener las últimas noticias</p>
                         <form class="footer-widget__email-box" data-url="MC_FORM_URL">
                             <div class="footer-widget__email-input-box">
-                                <input type="email" placeholder="Email address" name="email">
+                                <input type="email" placeholder="Correo electrónico" name="email">
                             </div>
                             <button type="submit" class="footer-widget__subscribe-btn thm-btn">Regístrate</button>
                         </form>
