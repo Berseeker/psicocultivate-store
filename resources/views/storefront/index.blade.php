@@ -209,7 +209,7 @@
                           </ul>
                       </div>
                       <div class="about-three__btn-box">
-                          <a href="make-appointment.html" class="about-three__btn thm-btn">Make an Appointment</a>
+                          <a href="make-appointment.html" class="about-three__btn thm-btn">Haz una reserva</a>
                       </div>
                   </div>
               </div>
