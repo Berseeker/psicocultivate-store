@@ -268,130 +268,37 @@
         </div>
         <div class="services-three__bottom">
             <div class="row">
-                <!--Services Three Single Start-->
-                <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="100ms">
-                    <div class="services-three__single">
-                        <div class="services-three__img-box">
-                            <div class="services-three__img">
-                                <img src="{{ asset('/images/services/services-3-1.jpg') }}" alt="">
-                            </div>
-                            <div class="services-three__icon">
-                                <span class="icon-heart-1"></span>
-                            </div>
-                        </div>
-                        <div class="services-three__content">
-                            <div class="services-three__content-inner">
-                                <div class="services-three__content-top">
-                                    <h3 class="services-three__title"><a href="dating-relationship.html">Dating
-                                            &
-                                            <br> Relationship</a></h3>
-                                    <p class="services-three__text">Scelerisque eleifend donec pretium
-                                        vulputate
-                                        sapien
-                                    </p>
+                @foreach ($services as $service)
+                    <!--Services Three Single Start-->
+                    <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="100ms">
+                        <div class="services-three__single">
+                            <div class="services-three__img-box">
+                                <div class="services-three__img">
+                                    <img src="{{ asset('images/' . $service->main_image) }}" alt="">
                                 </div>
-                                <div class="services-three__btn-box">
-                                    <a href="dating-relationship.html" class="services-three__btn"><span
-                                            class="icon-right-arrow"></span>More</a>
+                                <div class="services-three__icon">
+                                    <span class="icon-heart-1"></span>
                                 </div>
                             </div>
-                        </div>
-                    </div>
-                </div>
-                <!--Services Three Single Start-->
-                <!--Services Three Single Start-->
-                <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="200ms">
-                    <div class="services-three__single">
-                        <div class="services-three__img-box">
-                            <div class="services-three__img">
-                                <img src="{{ asset('/images/services/services-3-2.jpg') }}" alt="">
-                            </div>
-                            <div class="services-three__icon">
-                                <span class="icon-motivated"></span>
-                            </div>
-                        </div>
-                        <div class="services-three__content">
-                            <div class="services-three__content-inner">
-                                <div class="services-three__content-top">
-                                    <h3 class="services-three__title"><a href="self-esteem-issues.html">Self
-                                            Esteem
-                                            <br> Issues</a></h3>
-                                    <p class="services-three__text">Scelerisque eleifend donec pretium
-                                        vulputate
-                                        sapien
-                                    </p>
-                                </div>
-                                <div class="services-three__btn-box">
-                                    <a href="self-esteem-issues.html" class="services-three__btn"><span
-                                            class="icon-right-arrow"></span>More</a>
+                            <div class="services-three__content">
+                                <div class="services-three__content-inner">
+                                    <div class="services-three__content-top">
+                                        <h3 class="services-three__title"><a href="{{ route('service.detail', ['id' => $service->id]) }}">{{ $service->nombre }}</a></h3>
+                                        <p class="services-three__text">Scelerisque eleifend donec pretium
+                                            vulputate
+                                            sapien
+                                        </p>
+                                    </div>
+                                    <div class="services-three__btn-box">
+                                        <a href="dating-relationship.html" class="services-three__btn"><span
+                                                class="icon-right-arrow"></span>Más</a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <!--Services Three Single Start-->
-                <!--Services Three Single Start-->
-                <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="300ms">
-                    <div class="services-three__single">
-                        <div class="services-three__img-box">
-                            <div class="services-three__img">
-                                <img src="{{ asset('/images/services/services-3-3.jpg') }}" alt="">
-                            </div>
-                            <div class="services-three__icon">
-                                <span class="icon-family-2"></span>
-                            </div>
-                        </div>
-                        <div class="services-three__content">
-                            <div class="services-three__content-inner">
-                                <div class="services-three__content-top">
-                                    <h3 class="services-three__title"><a href="family-psycology.html">Kids &
-                                            Family
-                                            <br> Psycology</a></h3>
-                                    <p class="services-three__text">Scelerisque eleifend donec pretium
-                                        vulputate
-                                        sapien
-                                    </p>
-                                </div>
-                                <div class="services-three__btn-box">
-                                    <a href="family-psycology.html" class="services-three__btn"><span
-                                            class="icon-right-arrow"></span>More</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!--Services Three Single Start-->
-                <!--Services Three Single Start-->
-                <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="400ms">
-                    <div class="services-three__single">
-                        <div class="services-three__img-box">
-                            <div class="services-three__img">
-                                <img src="{{ asset('/images/services/services-3-4.jpg') }}" alt="">
-                            </div>
-                            <div class="services-three__icon">
-                                <span class="icon-suitcase"></span>
-                            </div>
-                        </div>
-                        <div class="services-three__content">
-                            <div class="services-three__content-inner">
-                                <div class="services-three__content-top">
-                                    <h3 class="services-three__title"><a href="career-counseling.html">Life &
-                                            Career
-                                            <br> Counseling</a></h3>
-                                    <p class="services-three__text">Scelerisque eleifend donec pretium
-                                        vulputate
-                                        sapien
-                                    </p>
-                                </div>
-                                <div class="services-three__btn-box">
-                                    <a href="career-counseling.html" class="services-three__btn"><span
-                                            class="icon-right-arrow"></span>More</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!--Services Three Single Start-->
+                    <!--Services Three Single Start-->   
+                @endforeach
             </div>
         </div>
     </div>

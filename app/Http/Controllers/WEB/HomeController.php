@@ -22,7 +22,9 @@ class HomeController extends Controller
 
     public function index()
     {
-        return view('storefront.index');
+        return view('storefront.index', [
+            'services' => $this->services
+        ]);
     }
 
     public function about()
