@@ -125,118 +125,100 @@
   <!--Feature Two End-->
 
   <!--About Three Start-->
-  <section class="about-three" id="about" style="margin-top: 80px;">
-      <div class="container">
-          <div class="row">
-              <div class="col-xl-7">
-                  <div class="about-three__left">
-                      <div class="section-title text-left">
-                          <span class="section-title__tagline">welcome to delogis</span>
-                          <h2 class="section-title__title">Providing the Best <span>Quality</span>
-                              Psycological Therapies</h2>
-                      </div>
-                      <p class="about-three__text">At the Good Samaritan Society, you aren’t just a custoer. We
-                          believe you’re someone who deserves to simply free text available in be treated with
-                          respect, dignity and compassion.</p>
-                      <div class="about-three__points-box">
-                          <ul class="about-three__points-list list-unstyled">
-                              <li>
-                                  <div class="icon">
-                                      <span class="fa fa-check"></span>
-                                  </div>
-                                  <div class="text">
-                                      <p>Bipolar Disorders</p>
-                                  </div>
-                              </li>
-                              <li>
-                                  <div class="icon">
-                                      <span class="fa fa-check"></span>
-                                  </div>
-                                  <div class="text">
-                                      <p>Stress Management</p>
-                                  </div>
-                              </li>
-                              <li>
-                                  <div class="icon">
-                                      <span class="fa fa-check"></span>
-                                  </div>
-                                  <div class="text">
-                                      <p>Depression Therapy</p>
-                                  </div>
-                              </li>
-                              <li>
-                                  <div class="icon">
-                                      <span class="fa fa-check"></span>
-                                  </div>
-                                  <div class="text">
-                                      <p>Family Therapy</p>
-                                  </div>
-                              </li>
-                          </ul>
-                          <ul class="about-three__points-list list-unstyled">
-                              <li>
-                                  <div class="icon">
-                                      <span class="fa fa-check"></span>
-                                  </div>
-                                  <div class="text">
-                                      <p>Anxiety Therapy</p>
-                                  </div>
-                              </li>
-                              <li>
-                                  <div class="icon">
-                                      <span class="fa fa-check"></span>
-                                  </div>
-                                  <div class="text">
-                                      <p>Executive Coaching</p>
-                                  </div>
-                              </li>
-                              <li>
-                                  <div class="icon">
-                                      <span class="fa fa-check"></span>
-                                  </div>
-                                  <div class="text">
-                                      <p>Relationship Therapy</p>
-                                  </div>
-                              </li>
-                              <li>
-                                  <div class="icon">
-                                      <span class="fa fa-check"></span>
-                                  </div>
-                                  <div class="text">
-                                      <p>Brief Therapy</p>
-                                  </div>
-                              </li>
-                          </ul>
-                      </div>
-                      <div class="about-three__btn-box">
-                          <a href="make-appointment.html" class="about-three__btn thm-btn">Haz una reserva</a>
-                      </div>
-                  </div>
-              </div>
-              <div class="col-xl-5">
-                  <div class="about-three__right">
-                      <div class="about-three__img-box">
-                          <div class="about-three__img">
-                              <img src="{{ asset('/images/resources/about-three-img-1.jpg') }}" alt="">
-                          </div>
-                          <div class="about-three__img-2">
-                              <img src="{{ asset('/images/resources/about-three-img-2.jpg') }}" alt="">
-                              <div class="about-three__shape-1"></div>
-                              <div class="about-three__video-link">
-                                  <a href="https://www.youtube.com/watch?v=Get7rqXYrbQ" class="video-popup">
-                                      <div class="about-three__video-icon">
-                                          <span class="fa fa-play"></span>
-                                          <i class="ripple"></i>
-                                      </div>
-                                  </a>
-                              </div>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-          </div>
-      </div>
-  </section>
+<section class="about-three" id="about" style="margin-top: 80px;">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-7">
+                <div class="about-three__left">
+                    <div class="section-title text-left">
+                        <span class="section-title__tagline">Bienvenida/o a Psicocultivate</span>
+                        <h2 class="section-title__title">Un lugar para <span>construir</span>
+                            espacios seguros.</h2>
+                    </div>
+                    <p class="about-three__text">Explora nuestra comunidad enfocada en el bienestar emocional y el fortalecimiento personal.</p>
+                    <div class="about-three__points-box">
+                            <ul class="about-three__points-list list-unstyled">
+                                <li>
+                                    <div class="icon">
+                                        <span class="fa fa-check"></span>
+                                    </div>
+                                    <div class="text">
+                                        <p>Psicología</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="icon">
+                                        <span class="fa fa-check"></span>
+                                    </div>
+                                    <div class="text">
+                                        <p>Psicoterapia</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="icon">
+                                        <span class="fa fa-check"></span>
+                                    </div>
+                                    <div class="text">
+                                        <p>Derecho</p>
+                                    </div>
+                                </li>
+                            </ul>
+                            <ul class="about-three__points-list list-unstyled">
+                                    <li>
+                                        <div class="icon">
+                                            <span class="fa fa-check"></span>
+                                        </div>
+                                        <div class="text">
+                                            <p>Literatura latinoamericana</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="icon">
+                                            <span class="fa fa-check"></span>
+                                        </div>
+                                        <div class="text">
+                                            <p>Perspectiva de género</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="icon">
+                                            <span class="fa fa-check"></span>
+                                        </div>
+                                        <div class="text">
+                                            <p>Talleristas</p>
+                                        </div>
+                                    </li>
+                            </ul>
+                    </div>
+                    <div class="about-three__btn-box">
+                        <a href="make-appointment.html" class="about-three__btn thm-btn">Haz una reserva</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-5">
+                <div class="about-three__right">
+                    <div class="about-three__img-box">
+                        <div class="about-three__img">
+                            <img src="{{ asset('/images/resources/about-three-img-1.jpg') }}" alt="">
+                        </div>
+                        <div class="about-three__img-2">
+                            <img src="{{ asset('/images/resources/about-three-img-2.jpg') }}" alt="">
+                            <div class="about-three__shape-1"></div>
+                            <div class="about-three__video-link">
+                                <a href="https://www.youtube.com/watch?v=Get7rqXYrbQ" class="video-popup">
+                                    <div class="about-three__video-icon">
+                                        <span class="fa fa-play"></span>
+                                        <i class="ripple"></i>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
   <!--About Three End-->
 
 <!--Services Three Start-->
@@ -251,17 +233,17 @@
                 <div class="col-xl-6 col-lg-6">
                     <div class="services-three__left">
                         <div class="section-title text-left">
-                            <span class="section-title__tagline">Services we’re offering</span>
-                            <h2 class="section-title__title">Magical Therapy for <span>the</span>
-                                People Need Help</h2>
+                            <span class="section-title__tagline">Servicios</span>
+                            <h2 class="section-title__title">Un rincón para <span>cultivar</span>
+                                tu bienestar emocional</h2>
                         </div>
                     </div>
                 </div>
                 <div class="col-xl-6 col-lg-6">
                     <div class="services-three__right">
-                        <p class="services-three__text">Lorem ipsum dolor sit amet, con adipiscing elit tiam
-                            convallis elit id impedie. Quisq commodo simply free ornare tortor. If you are going
-                            to use a passage.</p>
+                        <p class="services-three__text">Encontrarás servicios que integran terapias basadas en evidencia. 
+                            Mi objetivo es proporcionar un espacio seguro para el crecimiento y el desarrollo de cada persona, 
+                            colaborando a alcanzar tu máximo potencial en un entorno de confianza y profesionalismo.</p>
                     </div>
                 </div>
             </div>
