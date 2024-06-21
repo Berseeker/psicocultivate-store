@@ -31,7 +31,7 @@
     <link rel="stylesheet" href="{{ asset('vendors/web/nouislider/nouislider.pips.css') }}" />
     <link rel="stylesheet" href="{{ asset('vendors/web/odometer/odometer.min.css') }}" />
     <link rel="stylesheet" href="{{ asset('vendors/web/swiper/swiper.min.css') }}" />
-    <link rel="stylesheet" href="{{ asset('vendors/web/delogis-icons/style_icons.css') }}">
+    <link rel="stylesheet" href="{{ asset('vendors/web/delogis-icons/style_icons_change.css') }}">
     <link rel="stylesheet" href="{{ asset('vendors/web/tiny-slider/tiny-slider.min.css') }}" />
     <link rel="stylesheet" href="{{ asset('vendors/web/reey-font/stylesheet.css') }}" />
     <link rel="stylesheet" href="{{ asset('vendors/web/alagambe-font/stylesheet.css') }}" />
@@ -43,7 +43,7 @@
     <link rel="stylesheet" href="{{ asset('vendors/web/jquery-ui/jquery-ui.css') }}" />
     <link rel="stylesheet" href="{{ asset('vendors/web/timepicker/timePicker.css') }}" />
     <!-- template styles -->
-    <link rel="stylesheet" href="{{ asset('css/web/zombie.css') }}" />
+    <link rel="stylesheet" href="{{ asset('css/web/change.css') }}" />
     <link rel="stylesheet" href="{{ asset('css/web/delogis-responsive_home.css') }}" />
 </head>
 

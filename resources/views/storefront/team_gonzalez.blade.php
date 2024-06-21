@@ -28,7 +28,7 @@
     </div>
     <div class="container">
         <div class="page-header__inner">
-            <h2>Sobre mí</h2>
+            <h2>Comunidad</h2>
             <ul class="thm-breadcrumb list-unstyled">
                 <li><a href="{{ route('inicio') }}">Inicio</a></li>
                 <li><span>/</span></li>
@@ -102,22 +102,22 @@
             <ul class="certificate-one__list list-unstyled">
                 <li>
                     <div class="certificate-one__img">
-                        <img src="{{  asset('images/aboutme/licenciatura.svg') }}" data-bs-toggle="modal" data-bs-target="#certificado1" alt="Titulo de licenciatura">
+                        <img src="{{  asset('images/team/nimsi_certificaciones/cert1.jpg') }}" data-bs-toggle="modal" data-bs-target="#certificado1" alt="Titulo de licenciatura">
                     </div>
                 </li>
                 <li>
                     <div class="certificate-one__img">
-                        <img src="{{  asset('images/aboutme/pruebas.svg') }}" data-bs-toggle="modal" data-bs-target="#certificado2" alt="Diplomado de Pruebas">
+                        <img src="{{  asset('images/team/nimsi_certificaciones/cert2.jpg') }}" data-bs-toggle="modal" data-bs-target="#certificado2" alt="Diplomado de Pruebas">
                     </div>
                 </li>
                 <li>
                     <div class="certificate-one__img">
-                        <img src="{{  asset('images/aboutme/sexologia.svg') }}" data-bs-toggle="modal" data-bs-target="#certificado3" alt="Diplomado en Sexologia">
+                        <img src="{{  asset('images/team/nimsi_certificaciones/cert3.jpg') }}" data-bs-toggle="modal" data-bs-target="#certificado3" alt="Diplomado en Sexologia">
                     </div>
                 </li>
                 <li>
                     <div class="certificate-one__img">
-                        <img src="{{  asset('images/aboutme/contextual.svg') }}" data-bs-toggle="modal" data-bs-target="#certificado4" alt="Diplomado en Contextuales">
+                        <img src="{{  asset('images/team/nimsi_certificaciones/cert4.jpg') }}" data-bs-toggle="modal" data-bs-target="#certificado4" alt="Diplomado en Contextuales">
                     </div>
                 </li>
             </ul>
@@ -133,7 +133,7 @@
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
-            <img src="{{ asset('images/aboutme/licenciatura_grande.svg') }}" alt="Titulo de Licenciatura en psicologia" style="width: 100%;">
+            <img src="{{ asset('images/team/nimsi_certificaciones/cert1_big.jpg') }}" alt="Titulo de Licenciatura en psicologia" style="width: 100%;">
         </div>
       </div>
     </div>
@@ -146,7 +146,7 @@
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
-            <img src="{{ asset('images/aboutme/pruebas_grande.svg') }}" alt="Diplomado de Baterias" style="width: 100%;">
+            <img src="{{ asset('images/team/nimsi_certificaciones/cert2_big.jpg') }}" alt="Diplomado de Baterias" style="width: 100%;">
         </div>
       </div>
     </div>
@@ -159,7 +159,7 @@
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
-            <img src="{{ asset('images/aboutme/sexologia_grande.svg') }}" alt="Diplomado de Baterias" style="width: 100%;">
+            <img src="{{ asset('images/team/nimsi_certificaciones/cert3_big.jpg') }}" alt="Diplomado de Baterias" style="width: 100%;">
         </div>
       </div>
     </div>
@@ -172,7 +172,7 @@
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
-            <img src="{{ asset('images/aboutme/contextual_grande.svg') }}" alt="Diplomado de Baterias" style="width: 100%;">
+            <img src="{{ asset('images/team/nimsi_certificaciones/cert4_big.jpg') }}" alt="Diplomado de Baterias" style="width: 100%;">
         </div>
       </div>
     </div>

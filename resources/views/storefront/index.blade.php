@@ -32,7 +32,7 @@
                           <p class="main-slider-three__sub-title">Terapia Online</p-->
                       </div>
                       <h2 class="main-slider-three__title">Un espacio seguro,<br>
-                          es un espacio de <br> <span>cambios</span></h2>
+                          es un espacio de <br> <span style="border-bottom: 4px solid #4f6635;">cambios</span></h2>
                       <div class="main-slider-three__btn-founder-box">
                           <a href="make-appointment.html" class="main-slider-two__btn-one thm-btn">Haz un cita</a>
                           <div class="main-slider-three__founder-box">
@@ -132,10 +132,10 @@
                 <div class="about-three__left">
                     <div class="section-title text-left">
                         <span class="section-title__tagline">Bienvenida/o a Psicocultivate</span>
-                        <h2 class="section-title__title">Un lugar para <span>construir</span>
+                        <h2 class="section-title__title">Un lugar para construir
                             espacios seguros.</h2>
                     </div>
-                    <p class="about-three__text">Explora nuestra comunidad enfocada en el bienestar emocional y el fortalecimiento personal.</p>
+                    <p class="about-three__text" style="font-size: 18px;">Explora nuestra comunidad enfocada en el bienestar emocional y el fortalecimiento personal.</p>
                     <div class="about-three__points-box">
                             <ul class="about-three__points-list list-unstyled">
                                 <li>
@@ -199,19 +199,19 @@
                 <div class="about-three__right">
                     <div class="about-three__img-box">
                         <div class="about-three__img">
-                            <img src="{{ asset('/images/resources/about-three-img-1.jpg') }}" alt="">
+                            <img src="{{ asset('/images/home-showcase/home_desc.svg') }}" alt="Psicocultivate">
                         </div>
                         <div class="about-three__img-2">
-                            <img src="{{ asset('/images/resources/about-three-img-2.jpg') }}" alt="">
+                            <img src="{{ asset('/images/home-showcase/home_vid.svg') }}" alt="Psicocultivate">
                             <div class="about-three__shape-1"></div>
-                            <div class="about-three__video-link">
+                            <!--div class="about-three__video-link">
                                 <a href="https://www.youtube.com/watch?v=Get7rqXYrbQ" class="video-popup">
                                     <div class="about-three__video-icon">
                                         <span class="fa fa-play"></span>
                                         <i class="ripple"></i>
                                     </div>
                                 </a>
-                            </div>
+                            </div-->
                         </div>
                     </div>
                 </div>
@@ -234,14 +234,14 @@
                     <div class="services-three__left">
                         <div class="section-title text-left">
                             <span class="section-title__tagline">Servicios</span>
-                            <h2 class="section-title__title">Un rincón para <span>cultivar</span>
+                            <h2 class="section-title__title">Un rincón para cultivar
                                 tu bienestar emocional</h2>
                         </div>
                     </div>
                 </div>
                 <div class="col-xl-6 col-lg-6">
                     <div class="services-three__right">
-                        <p class="services-three__text">Encontrarás servicios que integran terapias basadas en evidencia. 
+                        <p class="services-three__text" style="font-size: 18px;">Encontrarás servicios que integran terapias basadas en evidencia. 
                             Mi objetivo es proporcionar un espacio seguro para el crecimiento y el desarrollo de cada persona, 
                             colaborando a alcanzar tu máximo potencial en un entorno de confianza y profesionalismo.</p>
                     </div>
@@ -258,9 +258,9 @@
                                 <div class="services-three__img">
                                     <img src="{{ asset('images/' . $service->main_image) }}" alt="">
                                 </div>
-                                <div class="services-three__icon">
-                                    <span class="icon-heart-1"></span>
-                                </div>
+                                <!--div class="services-three__icon">
+                                    <span class="icon-leaf"></span>
+                                </div-->
                             </div>
                             <div class="services-three__content">
                                 <div class="services-three__content-inner">
@@ -548,9 +548,9 @@
 <section class="blog-two" id="blog">
     <div class="container">
         <div class="section-title text-center">
-            <span class="section-title__tagline">From the Blog</span>
-            <h2 class="section-title__title">Latest News <span>&</span>
-                <br> Articles From the Blog</h2>
+            <span class="section-title__tagline">Blogs</span>
+            <h2 class="section-title__title">Los últimos
+                <br> blogs</h2>
         </div>
         <div class="row">
             <!--Blog Two Single Start-->
@@ -558,72 +558,20 @@
                 <div class="blog-two__single">
                     <div class="blog-two__img-box">
                         <div class="blog-two__img">
-                            <img src="{{ asset('/images/blog/blog-2-1.jpg') }}" alt="">
+                            <img src="{{ asset('/images/home-showcase/blog_.svg') }}" alt="">
                             <div class="blog-two__date">
                                 <p>20
                                     <br> Mar</p>
                             </div>
-                            <h3 class="blog-two__title"><a href="blog-details.html">Patient-Led Advocacy
-                                    Group Shares Patient
-                                    Perspective</a></h3>
+                            <h3 class="blog-two__title"><a href="{{ route('blog',['id' => 1]) }}">Recomendaciones para la mejorar la higiene del sueño</a></h3>
                         </div>
                     </div>
                     <div class="blog-two__comment-and-btn">
                         <div class="blog-two__comment">
-                            <a href="blog-details.html"><span class="fas fa-comments"></span>2 Comments</a>
+                            <a href="blog-details.html"><span class="fas fa-comments"></span>0 Comentarios</a>
                         </div>
                         <div class="blog-one__btn">
-                            <a href="blog-details.html"><span class="icon-right-arrow"></span>More</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!--Blog Two Single End-->
-            <!--Blog Two Single Start-->
-            <div class="col-xl-4 col-lg-4 wow fadeInUp" data-wow-delay="200ms">
-                <div class="blog-two__single">
-                    <div class="blog-two__img-box">
-                        <div class="blog-two__img">
-                            <img src="{{ asset('/images/blog/blog-2-2.jpg') }}" alt="">
-                            <div class="blog-two__date">
-                                <p>20
-                                    <br> Mar</p>
-                            </div>
-                            <h3 class="blog-two__title"><a href="blog-details.html">Quis ipsum suspend isse
-                                    ultrices gravida. Risus commodo</a></h3>
-                        </div>
-                    </div>
-                    <div class="blog-two__comment-and-btn">
-                        <div class="blog-two__comment">
-                            <a href="blog-details.html"><span class="fas fa-comments"></span>2 Comments</a>
-                        </div>
-                        <div class="blog-one__btn">
-                            <a href="blog-details.html"><span class="icon-right-arrow"></span>More</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!--Blog Two Single End-->
-            <!--Blog Two Single Start-->
-            <div class="col-xl-4 col-lg-4 wow fadeInUp" data-wow-delay="300ms">
-                <div class="blog-two__single">
-                    <div class="blog-two__img-box">
-                        <div class="blog-two__img">
-                            <img src="{{ asset('/images/blog/blog-2-3.jpg') }}" alt="">
-                            <div class="blog-two__date">
-                                <p>20
-                                    <br> Mar</p>
-                            </div>
-                            <h3 class="blog-two__title"><a href="blog-details.html">Risus commodo viverra
-                                    maecenas accumsan lacusvel facilisis. </a></h3>
-                        </div>
-                    </div>
-                    <div class="blog-two__comment-and-btn">
-                        <div class="blog-two__comment">
-                            <a href="blog-details.html"><span class="fas fa-comments"></span>2 Comments</a>
-                        </div>
-                        <div class="blog-one__btn">
-                            <a href="blog-details.html"><span class="icon-right-arrow"></span>More</a>
+                            <a href="blog-details.html"><span class="icon-right-arrow"></span>Más</a>
                         </div>
                     </div>
                 </div>
