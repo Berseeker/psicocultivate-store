@@ -1,55 +1,71 @@
-version: '3'
+# Entorno local de psicocultivate-store.
+#
+# Puertos elegidos para NO chocar con los otros proyectos en Docker:
+#   80   -> gphoteles          8082 -> adhara_2025
+#   3306 -> gphoteles mysql    8090 -> psicocultivate-app
+#   3310 -> psicocultivate-app mysql
+#   8027/1027 -> gphoteles mailpit
+# Aqui usamos 8091 (web), 3311 (mysql), 8028/1028 (mailpit). Vite: 5175 en el host.
+#
+# El nombre de proyecto se fija para no colisionar con "psicocultivate-app".
+name: psicocultivate-store
+
+# Corre sobre la infraestructura compartida de ../_infra (MySQL, Redis, Mailpit).
+#     cd ../_infra && docker compose up -d
+# El volumen antiguo store-mysql sigue en disco por si hay que revertir.
+
 services:
-    laravel.test:
-        build:
-            context: ./docker/8.2
-            dockerfile: Dockerfile
-            args:
-                WWWGROUP: '${WWWGROUP}'
-        image: sail-8.2/app
-        extra_hosts:
-            - 'host.docker.internal:host-gateway'
-        ports:
-            - '${APP_PORT:-80}:80'
-            - '${VITE_PORT:-5173}:${VITE_PORT:-5173}'
-        environment:
-            WWWUSER: '${WWWUSER}'
-            LARAVEL_SAIL: 1
-            XDEBUG_MODE: '${SAIL_XDEBUG_MODE:-off}'
-            XDEBUG_CONFIG: '${SAIL_XDEBUG_CONFIG:-client_host=host.docker.internal}'
-        volumes:
-            - '.:/var/www/html'
-        networks:
-            - sail
-        depends_on:
-            - mysql
-    mysql:
-        image: 'mysql/mysql-server:8.0'
-        ports:
-            - '${FORWARD_DB_PORT:-3306}:3306'
-        environment:
-            MYSQL_ROOT_PASSWORD: '${DB_PASSWORD}'
-            MYSQL_ROOT_HOST: '%'
-            MYSQL_DATABASE: '${DB_DATABASE}'
-            MYSQL_USER: '${DB_USERNAME}'
-            MYSQL_PASSWORD: '${DB_PASSWORD}'
-            MYSQL_ALLOW_EMPTY_PASSWORD: 1
-        volumes:
-            - 'sail-mysql:/var/lib/mysql'
-            - './vendor/laravel/sail/database/mysql/create-testing-database.sh:/docker-entrypoint-initdb.d/10-create-testing-database.sh'
-        networks:
-            - sail
-        healthcheck:
-            test:
-                - CMD
-                - mysqladmin
-                - ping
-                - '-p${DB_PASSWORD}'
-            retries: 3
-            timeout: 5s
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        UID: '501'
+        GID: '20'
+    image: psicocultivate-store:local
+    restart: unless-stopped
+    ports:
+      - '8091:80'
+    environment:
+      # Estas variables ganan sobre el .env del host (el repositorio de entorno
+      # de Laravel es inmutable), asi no hay que tocar tu .env local de MAMP.
+      APP_ENV: local
+      APP_DEBUG: 'true'
+      APP_URL: 'http://localhost:8091'
+      DB_CONNECTION: mysql
+      DB_HOST: mysql
+      DB_PORT: '3306'
+      DB_DATABASE: psicocultivate
+      DB_USERNAME: psicocultivate
+      DB_PASSWORD: secret
+      CACHE_DRIVER: file
+      SESSION_DRIVER: file
+      QUEUE_CONNECTION: sync
+      # Correo capturado por Mailpit en vez de salir por el Gmail real
+      MAIL_MAILER: smtp
+      MAIL_HOST: mailpit
+      MAIL_PORT: '1025'
+      MAIL_USERNAME: ''
+      MAIL_PASSWORD: ''
+      MAIL_ENCRYPTION: ''
+      # Xdebug apagado por defecto. Ponlo en 'debug' y reinicia para depurar.
+      XDEBUG_MODE: 'off'
+      # Pon 'false' si no quieres que migre en cada arranque
+      RUN_MIGRATIONS: 'true'
+      # Pon 'true' la primera vez para cargar roles, usuarios y catalogos
+      RUN_SEEDERS: 'false'
+    volumes:
+      # Todo el proyecto en vivo, incluidos vendor/ y node_modules/, para que el
+      # IDE del host resuelva las clases de Laravel y las libs del tema.
+      # (Antes eran volumenes anonimos y quedaban invisibles para VSCode.)
+      - './:/var/www/html'
+    extra_hosts:
+      # Para que Xdebug alcance al IDE del host
+      - 'host.docker.internal:host-gateway'
+    networks:
+      - shared
 networks:
-    sail:
-        driver: bridge
-volumes:
-    sail-mysql:
-        driver: local
+  shared:
+    external: true
+    name: dev-shared
+
