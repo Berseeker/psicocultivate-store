@@ -26,6 +26,13 @@ services:
     restart: unless-stopped
     ports:
       - '8091:80'
+    labels:
+      # Enrutado por Traefik (perfil `proxy` de la infra): https://psicocultivate.test
+      # sin puerto. El `ports:` de arriba se queda: sirve cuando Traefik no está
+      # levantado, y los dos caminos pueden coexistir.
+      - traefik.enable=true
+      - traefik.http.routers.psicocultivate.rule=Host(`psicocultivate.test`)
+      - traefik.http.services.psicocultivate.loadbalancer.server.port=80
     environment:
       # Estas variables ganan sobre el .env del host (el repositorio de entorno
       # de Laravel es inmutable), asi no hay que tocar tu .env local de MAMP.
