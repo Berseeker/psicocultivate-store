@@ -67,5 +67,5 @@ services:
 networks:
   shared:
     external: true
-    name: dev-shared
+    name: devnet
 
